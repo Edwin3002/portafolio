@@ -27,10 +27,10 @@ const About = () => {
         <div className='flex w-full lg:w-1/2'>
           <div className='my-auto w-4/5 m-auto p-1 '>
             <h2 className='flex font-bold  text-3xl lg:text-4xl'>Skills</h2>
-            <div class="flex w-full flex-wrap justify-between">
+            <div className="flex w-full flex-wrap justify-between">
               {
                 teskill.map((ski)=>(
-                  <CardSkill data={ski}/>
+                  <CardSkill key={ski.name} data={ski}/>
                 ))
               }
             </div>
