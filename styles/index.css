@@ -1,0 +1,35 @@
+:root{
+    --cherry: #C84771;
+    --green: #57F794;
+    --purple8: #6B21A8;
+}
+*{
+    color: azure;
+}
+html{
+    background: #212121;
+}
+.colorText{
+    color: var(--green)  ;
+}
+.btnCv{
+    background: var(--green)  ;
+}
+.colorNav{
+    background-color: var(--purple8);
+}
+.cardMaxW{
+    max-width: 150px;
+    max-height: 150px;
+    border: 2px solid #57F794;
+}
+.imgCard {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.imgCard img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
