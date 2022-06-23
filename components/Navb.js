@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/Link'
 
 const Navb = () => {
   return (
@@ -13,24 +12,24 @@ const Navb = () => {
         <div className=" basis-4/5 lg:basis-2/4  flex  items-center ">
           <ul className="flex w-full justify-around text-slate-300">
             <li >
-              <Link href="#hom">
+              <a href="#hom">
                 Home
-              </Link>
+              </a>
             </li>
             <li >
-              <Link href="#abo">
+              <a href="#abo">
                 About_Me
-              </Link>
+              </a>
             </li>
             <li >
-              <Link href="/Bye">
+              <a href="/Bye">
                 Portafolio
-              </Link>
+              </a>
             </li>
             <li >
-              <Link href="/Bye">
+              <a href="/Bye">
                 Contact
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
