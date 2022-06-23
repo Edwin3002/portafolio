@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { techSkills } from '../data/skills'
 import CardSkill from './CardSkill';
+import Image from 'next/image';
 
 const About = () => {
   const [teskill, setTeskill] = useState(techSkills)
@@ -19,7 +20,7 @@ const About = () => {
               I am always seeking to improve my skills and continue growing professionally in order to make valuable contributions at the working group I am part of. Therefore I use the modern development workflow with CodeStream in order to increase productivity and improve communication inside our development team.
             </p>
             <button className='btnCv rounded-lg px-4 py-1 flex items-center justify-around'>
-              <img src='https://res.cloudinary.com/edwin3002/image/upload/v1656015671/portafolio/cloud_ubonn6.png' alt='cloud' />
+              <Image src='https://res.cloudinary.com/edwin3002/image/upload/v1656015671/portafolio/cloud_ubonn6.png' alt='cloud' />
               <p>Download-CV</p>
             </button>
           </div>
