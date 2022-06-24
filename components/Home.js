@@ -1,4 +1,6 @@
+/* eslint-disable no-console, no-debugger, semi */
 import Image from 'next/image';
+
 import React, { useEffect, useState } from 'react';
 
 const Home1 = () => {
@@ -11,14 +13,14 @@ const Home1 = () => {
     }
     useEffect(() => {
         dataGit();
-    }, [])
+    }, []);
 
     return (
         <div className="h-screen bg-cover  bg-[url('https://res.cloudinary.com/edwin3002/image/upload/v1656009045/portafolio/Copia_de_Dise%C3%B1o_sin_t%C3%ADtulo_mn3doq.png')]">
             <div id="hom" className='flex backdrop-blur-sm backdrop-brightness-50  flex-col  md:flex-row h-screen'>
                 <div className='flex mt-40 md:mt-10 w-full lg:w-1/2'>
                     <div className=' m-auto'>
-                        <Image className='rounded-full w-3/4  m-auto' src={git ? git.avatar_url : ''} alt='Edwin vargas' />
+                        {/* <Image className='rounded-full w-3/4  m-auto' src={git ? git.avatar_url : ''} alt='Edwin vargas' /> */}
                         <h2 className=' text-center text-4xl lg:text-5xl'>Edwin Vargas Ayala</h2>
                     </div>
                 </div>
@@ -26,7 +28,7 @@ const Home1 = () => {
                     <div className='m-auto p-1 text-center lg:text-left'>
                         <section className='my-6 '>
 
-                        <h2 className='colorText font-bold text-4xl lg:text-5xl'>Hi 👋🏼, I'm Ed</h2>
+                        <h2 className='colorText font-bold text-4xl lg:text-5xl'>Hi 👋🏼, I am Ed</h2>
                         <h3 className='font-bold text-3xl lg:text-4xl'>Frontend Developer</h3>
                         </section>
                         <p className='my-6  text-xl lg:text-3xl'>
