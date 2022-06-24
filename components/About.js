@@ -18,10 +18,13 @@ const About = () => {
               <br />
               I am always seeking to improve my skills and continue growing professionally in order to make valuable contributions at the working group I am part of. Therefore I use the modern development workflow with CodeStream in order to increase productivity and improve communication inside our development team.
             </p>
+            <a href='https://drive.google.com/u/0/uc?id=1A_okfhnq7ovTZFmqlGB40LH_pnviqJ5H&export=download' target='_black' download="Edwin Vargas Ayala">
+
             <button className='btnCv rounded-lg px-4 py-1 flex items-center justify-around'>
               <img src='https://res.cloudinary.com/edwin3002/image/upload/v1656015671/portafolio/cloud_ubonn6.png' alt='cloud' />
               <p>Download-CV</p>
             </button>
+            </a>
           </div>
         </div>
         <div className='my-16 w-full lg:w-1/2'>

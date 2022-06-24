@@ -1,6 +1,7 @@
 :root {
   --cherry: #c84771;
   --green: #57f794;
+  --green2: #4CD982;
   --purple8: #6b21a8;
   --purple5: #a855f7;
 }
@@ -10,20 +11,29 @@
 html {
   background: #212121;
 }
+.linkNav li:hover{
+    border-bottom: 2px var(--green) solid;
+}
 .colorText {
   color: var(--green);
 }
-.btnCv {
+.btnCv{
   background: var(--green);
 }
+.btnCv:hover{
+  background: var(--green2);
+}
 .colorNav {
-  background-color: var(--purple8);
+  background: var(--purple8);
 }
 .cardMaxW {
   max-width: 150px;
   max-height: 150px;
   background: var(--purple5);
   border: 2px solid var(--green);
+}
+.cardMaxW:hover{
+ transform: scale(1.1);
 }
 .imgCard {
   width: 100px;
