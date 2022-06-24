@@ -15,9 +15,9 @@ const Home1 = () => {
     }, []);
 
     return (
-        <div className="h-screen bg-cover  bg-[url('https://res.cloudinary.com/edwin3002/image/upload/v1656009045/portafolio/Copia_de_Dise%C3%B1o_sin_t%C3%ADtulo_mn3doq.png')]">
-            <div id="hom" className='flex backdrop-blur-sm backdrop-brightness-50  flex-col  md:flex-row h-screen'>
-                <div className='flex mt-40 md:mt-10 w-full lg:w-1/2'>
+        <div className="h-screen bg-cover   bg-[url('https://res.cloudinary.com/edwin3002/image/upload/v1656009045/portafolio/Copia_de_Dise%C3%B1o_sin_t%C3%ADtulo_mn3doq.png')]">
+            <div id="hom" className='flex backdrop-blur-sm backdrop-brightness-50   flex-col  md:flex-row h-screen'>
+                <div className='flex mt-20 md:mt-10 w-full lg:w-1/2'>
                     <div className=' m-auto'>
                         <img className='rounded-full w-3/4 m-auto' src={avatar_url} alt='Edwin vargas'/>
                         <h2 className=' text-center text-4xl lg:text-5xl'>Edwin Vargas Ayala</h2>
