@@ -1,4 +1,3 @@
-/* eslint-disable no-console, no-debugger, semi */
 import Image from 'next/image';
 
 import React, { useEffect, useState } from 'react';
@@ -11,6 +10,7 @@ const Home1 = () => {
         const data = await res.json();
         setGit(data);
     }
+    const {avatar_url} = git
     useEffect(() => {
         dataGit();
     }, []);
@@ -20,7 +20,7 @@ const Home1 = () => {
             <div id="hom" className='flex backdrop-blur-sm backdrop-brightness-50  flex-col  md:flex-row h-screen'>
                 <div className='flex mt-40 md:mt-10 w-full lg:w-1/2'>
                     <div className=' m-auto'>
-                        {/* <Image className='rounded-full w-3/4  m-auto' src={git ? git.avatar_url : ''} alt='Edwin vargas' /> */}
+                        <img className='rounded-full w-3/4 m-auto' src={avatar_url} alt='Edwin vargas'/>
                         <h2 className=' text-center text-4xl lg:text-5xl'>Edwin Vargas Ayala</h2>
                     </div>
                 </div>

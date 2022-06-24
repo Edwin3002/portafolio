@@ -10,8 +10,6 @@ const About = () => {
       <div id='abo' className='flex flex-col md:flex-row h-screen'>
         <div className='flex w-full mx-auto lg:w-1/2'>
           <div className='w-4/5 m-auto'>
-
-
             <h2 className='font-bold text-3xl lg:text-4xl'>About Me</h2>
             <h3 className='text-2xl lg:text-3xl'>I am Edwin Frontend Developer</h3>
             <p className='my-6 text-xl lg:text-2xl'>
@@ -20,16 +18,13 @@ const About = () => {
               <br />
               I am always seeking to improve my skills and continue growing professionally in order to make valuable contributions at the working group I am part of. Therefore I use the modern development workflow with CodeStream in order to increase productivity and improve communication inside our development team.
             </p>
-
-
-
             <button className='btnCv rounded-lg px-4 py-1 flex items-center justify-around'>
-              <Image src='https://res.cloudinary.com/edwin3002/image/upload/v1656015671/portafolio/cloud_ubonn6.png' alt='cloud' />
+              <img src='https://res.cloudinary.com/edwin3002/image/upload/v1656015671/portafolio/cloud_ubonn6.png' alt='cloud' />
               <p>Download-CV</p>
             </button>
           </div>
         </div>
-        {/* <div className='flex w-full lg:w-1/2'>
+        <div className='flex w-full lg:w-1/2'>
           <div className='my-auto w-4/5 m-auto p-1 '>
             <h2 className='flex font-bold  text-3xl lg:text-4xl'>Skills</h2>
             <div className='flex w-full flex-wrap justify-between'>
@@ -40,7 +35,7 @@ const About = () => {
               }
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   )

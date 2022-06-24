@@ -5,7 +5,7 @@ const CardSkill = ({ data }) => {
     return (
         <div className='bg-purple-500 m-4 p-2 w-full  cardMaxW rounded'>
             <div className='imgCard'>
-                <Image src={data.img} alt={data.name} />
+                <img src={data.img} alt={data.name} />
             </div>
             <p className='text-center'>{data.name}</p>
         </div>
