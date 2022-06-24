@@ -19,7 +19,7 @@ const Home1 = () => {
             <div  className='flex backdrop-blur-sm backdrop-brightness-50   flex-col  md:flex-row h-screen'>
                 <div className='flex mt-20 md:mt-10 w-full lg:w-1/2'>
                     <div className=' m-auto'>
-                        <img className='rounded-full w-3/4 m-auto' src={avatar_url} alt='Edwin vargas'/>
+                        {/* <img className='rounded-full w-3/4 m-auto' src={avatar_url} alt='Edwin vargas'/> */}
                         <h2 className=' text-center text-4xl lg:text-5xl'>Edwin Vargas Ayala</h2>
                     </div>
                 </div>

@@ -11,7 +11,7 @@ const Navb = () => {
         <div className=" basis-4/5 lg:basis-2/4  flex  items-center ">
           <ul className="linkNav flex w-full justify-around text-slate-300">
             <li >
-              <a href="/">
+              <a href="#home">
                 Home
               </a>
             </li>
