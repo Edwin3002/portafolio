@@ -6,9 +6,9 @@ import Image from 'next/image'
 const About = () => {
   const [teskill, setTeskill] = useState(techSkills);
   return (
-    <div className='h-screen bg-[#212121]'>
-      <div id='abo' className='flex flex-col md:flex-row h-screen'>
-        <div className='flex w-full mx-auto lg:w-1/2'>
+    <div className='my-8'>
+      <div id='abo' className='flex flex-col w-full lg:flex-row'>
+        <div className='flex w-full mx- lg:w-1/2'>
           <div className='w-4/5 m-auto'>
             <h2 className='font-bold text-3xl lg:text-4xl'>About Me</h2>
             <h3 className='text-2xl lg:text-3xl'>I am Edwin Frontend Developer</h3>
@@ -24,10 +24,10 @@ const About = () => {
             </button>
           </div>
         </div>
-        <div className='flex w-full lg:w-1/2'>
-          <div className='my-auto w-4/5 m-auto p-1 '>
+        <div className='my-16 w-full lg:w-1/2'>
+          <div className='my-auto w-4/5 mx-auto p-1 '>
             <h2 className='flex font-bold  text-3xl lg:text-4xl'>Skills</h2>
-            <div className='flex w-full flex-wrap justify-between'>
+            <div className='flex w-full flex-wrap  justify-between'>
               {
                 teskill.map((ski)=>(
                   <CardSkill key={ski.name} data={ski}/>

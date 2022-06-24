@@ -13,8 +13,8 @@ export default function Home() {
       <Navb/>
       <Home1/>
       <About/>
-      {/* <Portafolio/>
-      <Contact/> */}
+      <Portafolio/>
+      {/* <Contact/> */}
     </div>
   )
 }

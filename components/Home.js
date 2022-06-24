@@ -26,7 +26,6 @@ const Home1 = () => {
                 <div className='flex w-full lg:w-1/2'>
                     <div className='m-auto p-1 text-center lg:text-left'>
                         <section className='my-6 '>
-
                         <h2 className='colorText font-bold text-4xl lg:text-5xl'>Hi 👋🏼, I am Ed</h2>
                         <h3 className='font-bold text-3xl lg:text-4xl'>Frontend Developer</h3>
                         </section>
