@@ -111,3 +111,7 @@ html {
   transform: rotateX(0deg);
   color: #212121;
 }
+
+footer{
+    background-color: #474747;
+}

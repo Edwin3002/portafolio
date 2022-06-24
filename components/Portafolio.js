@@ -5,10 +5,9 @@ import CardSkill from './CardSkill'
 
 const Portafolio = () => {
   return (
-    <div>
+    <div id='portafolio' className='mt-8'>
       <h2 className='font-bold text-center text-3xl lg:text-4xl'>Portafolio</h2>
-      <div>
-        <div className='my-16 flex mx-auto w-full lg:w-3/4'>
+        <div className='my-8 flex mx-auto w-full '>
           <div className='my-auto w-4/5 m-auto p-1 '>
             <div className='flex w-full flex-wrap justify-around'>
 
@@ -30,7 +29,6 @@ const Portafolio = () => {
               } */}
             </div>
           </div>
-        </div>
       </div>
     </div>
   )

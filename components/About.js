@@ -6,8 +6,8 @@ import Image from 'next/image'
 const About = () => {
   const [teskill, setTeskill] = useState(techSkills);
   return (
-    <div className='my-8'>
-      <div id='abo' className='flex flex-col w-full lg:flex-row'>
+    <div id='about' className='mt-8 lg:mt-0'>
+      <div  className='flex flex-col w-full lg:flex-row'>
         <div className='flex w-full mx- lg:w-1/2'>
           <div className='w-4/5 m-auto'>
             <h2 className='font-bold text-3xl lg:text-4xl'>About Me</h2>
