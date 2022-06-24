@@ -5,10 +5,5 @@ const nextConfig = {
   },
 }
 
-module.exports = {
-  images: {
-    domains: ['assets.example.com'],
-  },
-}
 
 // module.exports = nextConfig
