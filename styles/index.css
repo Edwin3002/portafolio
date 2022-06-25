@@ -15,11 +15,15 @@ html {
 .linkNav li:hover{
     border-bottom: 2px var(--green) solid;
 }
+.linkNav li{
+    border-bottom: 2px transparent solid;
+}
 .colorText {
   color: var(--green);
 }
 .btnCv{
   background: var(--green);
+  color: black;
 }
 .btnCv:hover{
   background: var(--green2);
