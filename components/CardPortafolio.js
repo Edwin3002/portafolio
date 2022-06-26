@@ -1,8 +1,8 @@
 import React from 'react'
 import { Figma, Github, World } from '../icons/icons'
 
-const CardPortafolio = ({ project }) => {
-    console.log(project.img);
+const CardPortafolio = ({ project, f}) => {
+    
     return (
         <div className=' my-4 mx-4 cardMaxWPorta rounded-2xl'>
             <div className='imgCardPorta '>
@@ -43,7 +43,7 @@ const CardPortafolio = ({ project }) => {
                 <p className='mx-1'>
                     {project.technology}
                 </p>
-                <p className='underline desc'>Description</p>
+                <p className='underline desc' onClick={()=>{f(project)}}>Description</p>
             </div>
         </div>
     )

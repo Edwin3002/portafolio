@@ -1,10 +1,15 @@
-import React from 'react'
-import { techSkills } from '../data/skills'
+import React, { useState } from 'react'
 import CardPortafolio from './CardPortafolio'
-import CardSkill from './CardSkill'
 import { projectsPortafolio } from '../data/projects'
+import ModalDescription from './ModalDescription'
 
 const Portafolio = () => {
+  const [mod, setMod] = useState(false)
+  const [dataModal, setdataModal] = useState([])
+  const modal= (data)=>{
+    setMod(!mod)
+    setdataModal(data)
+  }
   return (
     <div id='portafolio' className='mt-8'>
       <h2 className='font-bold text-center text-3xl lg:text-4xl'>Portafolio</h2>
@@ -13,8 +18,11 @@ const Portafolio = () => {
           <div className='flex w-full flex-wrap justify-around'>
             {
               projectsPortafolio.map((project) => (
-                <CardPortafolio key={project.id} project={project} />
+                <CardPortafolio key={project.id} project={project} f={modal} />
               ))
+            }
+            {
+              mod ? <ModalDescription data={dataModal} f={modal}/> : ''
             }
           </div>
         </div>
