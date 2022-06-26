@@ -34,11 +34,13 @@ const CardPortafolio = ({ project, f}) => {
                             <Github />
                         </a>
                     </div>
-                    <div className='logoPorta'>
+                    {
+                        project.figma ? <div className='logoPorta'>
                         <a href={project.figma[0]} target='_blanck'>
                             <Figma />
                         </a>
-                    </div>
+                    </div> : ''
+                    }
                 </div>
                 <p className='mx-1'>
                     {project.technology}

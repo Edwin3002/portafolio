@@ -45,7 +45,6 @@ export const projectsPortafolio = [
         url: 'https://landing-fylo.vercel.app/',
         img: ['https://res.cloudinary.com/edwin3002/image/upload/v1656224267/portafolio/landing-1_z9ltex.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224270/portafolio/landing-2_qtlkwb.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224269/portafolio/landing-3_cvnelr.png'],
         github: 'https://github.com/Edwin3002/landing-page-Fylo',
-        figma: ['', ''],
         technology: 'React.js, FontAwesome, Chakra ui.',
         descrption: ''
     },
@@ -55,7 +54,6 @@ export const projectsPortafolio = [
         url: 'https://figuritas.netlify.app/',
         img: ['https://res.cloudinary.com/edwin3002/image/upload/v1656224276/portafolio/figuritas-1_b7fkpr.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224277/portafolio/figuritas-2_aonuve.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224265/portafolio/figuritas-3_jlglrt.png'],
         github: 'https://github.com/Edwin3002/Figuras',
-        figma: ['', ''],
         technology: 'React.js, SweetAlert2, Material ui, Heroku.',
         descrption: ''
     },
@@ -65,7 +63,6 @@ export const projectsPortafolio = [
         url: 'https://card-ed.netlify.app/',
         img: ['https://res.cloudinary.com/edwin3002/image/upload/v1656224266/portafolio/cards-1_bldu6e.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224265/portafolio/cards-3_pq9d4p.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1656224266/portafolio/cards-2_ogeuya.png'],
         github: 'https://github.com/Edwin3002/Cards',
-        figma: ['', ''],
         technology: 'React.js, Styled-components.',
         descrption: ''
     }
@@ -76,7 +73,6 @@ export const projectsPortafolio = [
         url: 'https://github.com/Edwin3002/Tiendita',
         img: ['https://res.cloudinary.com/edwin3002/image/upload/v1656224277/portafolio/tiendita-1_j5bd5v.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224270/portafolio/tiendita-2_idwftd.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224271/portafolio/tiendita-3_f6rimt.png'],
         github: 'https://github.com/Edwin3002/Cards',
-        figma: ['', ''],
         technology: 'Javascript, BootStrap, SweetAlert2.',
         descrption: ''
     } ,
@@ -86,7 +82,6 @@ export const projectsPortafolio = [
         url: 'https://edwin3002.github.io/reto-paises2/html/index.html',
         img: ['https://res.cloudinary.com/edwin3002/image/upload/v1656224981/portafolio/world-1_eemsr5.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224993/portafolio/world-2_r63g89.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224997/portafolio/world-3_cgjp9a.png'],
         github: 'https://github.com/Edwin3002/Edwin3002.github.io/tree/main/reto-paises2',
-        figma: ['', ''],
         technology: 'Javascript, BootStrap, Api.',
         descrption: ''
     }
