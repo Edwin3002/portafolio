@@ -12,8 +12,8 @@ const Portafolio = () => {
         <div className='my-auto w-4/5 m-auto p-1 '>
           <div className='flex w-full flex-wrap justify-around'>
             {
-              projectsPortafolio.map((proyect) => (
-                <CardPortafolio key={proyect.id} proyect={proyect} />
+              projectsPortafolio.map((project) => (
+                <CardPortafolio key={project.id} project={project} />
               ))
             }
           </div>

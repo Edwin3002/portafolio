@@ -1,5 +1,5 @@
 import React from 'react'
-import { Facebook, Github, Linkedin, Mail } from '../icons/icons'
+import {Github, Linkedin, Mail } from '../icons/icons'
 
 const Contact = () => {
   return (

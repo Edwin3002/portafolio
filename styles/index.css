@@ -1,7 +1,7 @@
 :root {
   --cherry: #c84771;
   --green: #57f794;
-  --green2: #4CD982;
+  --green2: #4cd982;
   --purple8: #6b21a8;
   --purple5: #a855f7;
 }
@@ -9,25 +9,25 @@
   color: azure;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
   background: #212121;
 }
-.linkNav li:hover{
-    border-bottom: 2px var(--green) solid;
+.linkNav li:hover {
+  border-bottom: 2px var(--green) solid;
 }
-.linkNav li{
-    border-bottom: 2px transparent solid;
+.linkNav li {
+  border-bottom: 2px transparent solid;
 }
 .colorText {
   color: var(--green);
 }
-.btnCv{
+.btnCv {
   background: var(--green);
 }
-.btnCv p{
+.btnCv p {
   color: black;
 }
-.btnCv:hover{
+.btnCv:hover {
   background: var(--green2);
 }
 .colorNav {
@@ -39,8 +39,8 @@ html {
   background: var(--purple5);
   border: 2px solid var(--green);
 }
-.cardMaxW:hover{
- transform: scale(1.1);
+.cardMaxW:hover {
+  transform: scale(1.1);
 }
 .imgCard {
   width: 100px;
@@ -73,7 +73,7 @@ html {
   display: block;
   top: 0%;
 }
-.cardMaxWPorta:hover .infoCardPorta p{
+.cardMaxWPorta:hover .infoCardPorta p {
   color: white;
 }
 .infoCardPorta {
@@ -85,41 +85,66 @@ html {
   background-color: var(--green);
   transition: 0.3s;
 }
-.infoCardPorta p{
+.infoCardPorta p {
   color: #212121;
 }
 /* slider */
 .slider {
-	width: 100%;
-	margin: auto;
-	overflow: hidden;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
 }
 
 .slider ul {
-	display: flex;
-	padding: 0;
-	width: 300%;
-	animation: cambio 10s infinite alternate linear;
+  display: flex;
+  padding: 0;
+  width: 300%;
+  animation: cambio 10s infinite alternate linear;
 }
 
 .slider li {
-	width: 100%;
-	list-style: none;
+  width: 100%;
+  list-style: none;
 }
-
 
 @keyframes cambio {
-	0% {margin-left: 0;}
-	30% {margin-left: 0;}
-	
-	35% {margin-left: -100%;}
-	65% {margin-left: -100%;}
-	
-	70% {margin-left: -200%;}
-	100% {margin-left: -200%;}
-	
-}
+  0% {
+    margin-left: 0;
+  }
+  30% {
+    margin-left: 0;
+  }
 
+  35% {
+    margin-left: -100%;
+  }
+  65% {
+    margin-left: -100%;
+  }
+
+  70% {
+    margin-left: -200%;
+  }
+  100% {
+    margin-left: -200%;
+  }
+}
+.logoPorta {
+  width: 30px;
+  height: 30px;
+}
+.logoPorta:hover {
+  transform: scale(1.2);
+}
+.desc {
+  position: absolute;
+  top: 85%;
+  width: 100%;
+  color: var(--green) !important;
+}
+.desc:hover{
+  transform: scale(1.2);
+}
 
 /* contact */
 .container {
@@ -168,6 +193,6 @@ html {
   color: #212121;
 }
 
-footer{
-    background-color: #474747;
+footer {
+  background-color: #474747;
 }
