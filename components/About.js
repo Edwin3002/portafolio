@@ -33,7 +33,7 @@ const About = () => {
             <div className='flex w-full flex-wrap  justify-between'>
               {
                 teskill.map((ski)=>(
-                  <CardSkill key={ski.name} data={ski}/>
+                  <CardSkill key={ski.id} data={ski}/>
                 ))
               }
             </div>
