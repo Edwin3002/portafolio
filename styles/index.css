@@ -73,6 +73,13 @@ html {
   display: block;
   top: 0%;
 }
+.cardMaxWPorta:hover .imgP{
+  transform: scale(0.95);
+  transition: 1s;
+}
+.imgP{
+  border-radius: 10px;
+}
 .cardMaxWPorta:hover .infoCardPorta p {
   color: white;
 }
@@ -83,7 +90,7 @@ html {
   top: 85%;
   color: #212121;
   background-color: var(--green);
-  transition: 0.3s;
+  transition: 1s;
 }
 .infoCardPorta p {
   color: #212121;
