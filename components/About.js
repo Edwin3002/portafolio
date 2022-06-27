@@ -1,10 +1,13 @@
 import React, { useState } from 'react' 
 import { techSkills } from '../data/skills'
 import CardSkill from './CardSkill'
-import Image from 'next/image'
+import { motion, useTransform, useViewportScroll } from "framer-motion"
 
 const About = () => {
   const [teskill, setTeskill] = useState(techSkills);
+  
+  const { scrollYProgress } = useViewportScroll()
+  const scale = useTransform(scrollYProgress, [0, 1], [0.8, 1.2]);
   return (
     <div id='about' className='mt-8 lg:mt-0'>
       <div  className='flex flex-col w-full lg:flex-row'>
@@ -33,7 +36,16 @@ const About = () => {
             <div className='flex w-full flex-wrap  justify-between'>
               {
                 teskill.map((ski)=>(
+                  <motion.div
+                  style={{ scale }}
+                >
+                  <motion.div
+                    style={{
+                      scaleY: scrollYProgress
+                    }}
+                  />
                   <CardSkill key={ski.id} data={ski}/>
+                </motion.div>
                 ))
               }
             </div>

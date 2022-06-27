@@ -26,7 +26,7 @@ export const projectsPortafolio = [
         img: ['https://res.cloudinary.com/edwin3002/image/upload/v1656215552/portafolio/portafolio-1_kvmlnm.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1656215535/portafolio/portafolio-2_b70rdk.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1656215538/portafolio/portafolio-3_pwudi4.png'],
         github: 'https://github.com/Edwin3002/portafolio',
         figma: ['https://www.figma.com/file/Vx51s3MdtYjORzN6ixQ4Kw/Portafolio?node-id=0%3A1', ''],
-        technology: 'React.js, Next.js, Tailwind, Figma.',
+        technology: 'React.js, Next.js, Tailwind, Framer Motion, Figma.',
         descrption: ''
     },
     // {

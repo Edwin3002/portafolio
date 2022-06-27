@@ -19,7 +19,6 @@ const CardPortafolio = ({ project, f}) => {
                         </li>
                     </ul>
                 </div>
-                {/* <img className='rounded-xl' src='https://res.cloudinary.com/edwin3002/image/upload/v1656100567/portafolio/Screenshot_2022-06-24_145416_flejy9.png' alt='img' /> */}
             </div>
             <div className='infoCardPorta text-center'>
                 <p>{project.name.toUpperCase()}</p>
