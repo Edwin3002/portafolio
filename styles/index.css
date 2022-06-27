@@ -2,8 +2,10 @@
   --cherry: #c84771;
   --green: #57f794;
   --green2: #4cd982;
-  --purple8: #6b21a8;
   --purple5: #a855f7;
+  --purple6: #9333EA;
+  --purple7: #7E22CE;
+  --purple8: #6b21a8;
 }
 
 * {
@@ -32,7 +34,7 @@ html {
   background: var(--green2);
 }
 .colorNav {
-  background: var(--purple8);
+  background: var(--purple7);
 }
 .cardMaxW {
   max-width: 150px;
@@ -54,10 +56,6 @@ html {
   height: 100%;
 }
 
-
-
-
-
 /* portafolio */
 .cardMaxWPorta {
   position: relative;
@@ -78,11 +76,11 @@ html {
   display: block;
   top: 0%;
 }
-.cardMaxWPorta:hover .imgP{
+.cardMaxWPorta:hover .imgP {
   transform: scale(0.95);
   transition: 1s;
 }
-.imgP{
+.imgP {
   border-radius: 10px;
 }
 .cardMaxWPorta:hover .infoCardPorta p {
@@ -144,6 +142,13 @@ html {
 .logoPorta {
   width: 30px;
   height: 30px;
+  border: 2px sodli var(--green);
+}
+.logoModal {
+  background-color: var(--purple7);
+  transform: scale(1.5);
+  padding: 2px;
+  border-radius: 6px;
 }
 .logoPorta:hover {
   transform: scale(1.2);
@@ -154,14 +159,13 @@ html {
   width: 100%;
   color: var(--green) !important;
 }
-.desc:hover{
+.desc:hover {
   transform: scale(1.2);
 }
 
-
 /* modal */
 
-.cardModal{
+.cardModal {
   margin: auto;
   transform: scale(1);
 }
@@ -174,19 +178,18 @@ html {
   animation: none;
   width: 100%;
 }
-.cardModal .slider li img{
-width: 95%;
-margin: auto;
+.cardModal .slider li img {
+  width: 95%;
+  margin: auto;
 }
 .cardModal .infoCardPorta {
   background-color: rgb(10, 10, 10, 0.5);
   display: block;
   top: 0%;
 }
-.cardModal .infoCardPorta p{
+.cardModal .infoCardPorta p {
   color: white;
 }
-
 
 /* contact */
 .container {

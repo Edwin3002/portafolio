@@ -17,8 +17,8 @@ const Home1 = () => {
             opacity: 1,
             scale: 1,
             transition: {
-                delayChildren: 0.3,
-                staggerChildren: 0.2
+                delayChildren: 0.5,
+                staggerChildren: 0.3
             }
         }
     };
@@ -35,40 +35,40 @@ const Home1 = () => {
     }, []);
 
     return (
-        <div id="home" className="h-screen bg-cover   bg-[url('https://res.cloudinary.com/edwin3002/image/upload/v1656009045/portafolio/Copia_de_Dise%C3%B1o_sin_t%C3%ADtulo_mn3doq.png')]">
-            <motion.ul
-                className="flex backdrop-blur-sm backdrop-brightness-50  flex-col  md:flex-row h-screen "
-                variants={container}
-                initial="hidden"
-                animate="visible">
-                <div className='flex mt-20 md:mt-10 w-full lg:w-1/2'>
-                    <div className=' m-auto'>
-                        <motion.li className="item" variants={item} >
-                            <img className='rounded-full w-3/4 m-auto' src={avatar_url} alt='Edwin vargas' />
-                        </motion.li>
-                        <motion.li className="item" variants={item} >
-                            <h2 className=' text-center text-4xl lg:text-5xl'>Edwin Vargas Ayala</h2>
-                        </motion.li>
+        <div id="home" className="h-screen bg-cover   bg-[url('https://res.cloudinary.com/edwin3002/image/upload/v1656358366/portafolio/portafolioBG3_kaviwh.jpg')]">
+                <motion.ul
+                    className="flex   flex-col  md:flex-row h-screen "
+                    variants={container}
+                    initial="hidden"
+                    animate="visible">
+                    <div className='flex mt-20 md:mt-10 w-full lg:w-1/2'>
+                        <div className=' m-auto'>
+                            <motion.li className="item" variants={item} >
+                                <img className='rounded-full w-3/4 m-auto' src={avatar_url} alt='Edwin vargas' />
+                            </motion.li>
+                            <motion.li className="item" variants={item} >
+                                <h2 className=' text-center text-4xl lg:text-5xl'>Edwin Vargas Ayala</h2>
+                            </motion.li>
+                        </div>
                     </div>
-                </div>
-                <div className='flex w-full lg:w-1/2'>
-                    <div className='m-auto p-1 text-center lg:text-left'>
-                        <motion.li className="item" variants={item} >
-                            <h2 className='colorText font-bold text-4xl lg:text-5xl'>Hi 👋🏼, I am Ed</h2>
-                        </motion.li>
-                        <motion.li className="item" variants={item} >
-                            <h3 className='font-bold text-3xl lg:text-4xl'>Frontend Developer</h3>
-                        </motion.li>
-                        <motion.li className="item" variants={item} >
-                            <p className='my-6  text-xl lg:text-3xl'>
-                                Develop solutions to help the world.
-                                Develop solutions to help the world.
-                                Develop solutions to help the world.
-                            </p>
-                        </motion.li>
+                    <div className='flex w-full lg:w-1/2'>
+                        <div className='m-auto p-1 text-center lg:text-left'>
+                            <motion.li className="item" variants={item} >
+                                <h2 className='colorText font-bold text-4xl lg:text-5xl'>Hi 👋🏼, I am Ed</h2>
+                            </motion.li>
+                            <motion.li className="item" variants={item} >
+                                <h3 className='font-bold text-3xl lg:text-4xl'>Frontend Developer</h3>
+                            </motion.li>
+                            <motion.li className="item" variants={item} >
+                                <p className='my-6  text-xl lg:text-3xl'>
+                                    Develop solutions to help the world.
+                                    Develop solutions to help the world.
+                                    Develop solutions to help the world.
+                                </p>
+                            </motion.li>
+                        </div>
                     </div>
-                </div>
-            </motion.ul>
+                </motion.ul>
         </div>
     )
 }

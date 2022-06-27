@@ -16,8 +16,8 @@ export const projectsPortafolio = [
         img: ['https://res.cloudinary.com/edwin3002/image/upload/v1656215546/portafolio/prof-1_oqc3d9.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1656215550/portafolio/prof-2_olcyks.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1656215553/portafolio/prof-3_edymzi.png'],
         github: 'https://github.com/academia-geek/demo-day-projects-asistente-prof',
         figma: ['https://www.figma.com/file/okvLSbGpf2CwqCzF0jz9WS/Asistente-prof?node-id=0%3A1', ''],
-        technology: 'React.js, Redux, React-BootStrap, Cloudinary, SweetAlert2, EmailJS, JS-Pdf, Figma, Firebase',
-        descrption: ''
+        technology: 'React.js, Redux, React-BootStrap, Cloudinary, SweetAlert2, EmailJS, JS-Pdf, Figma, Firebase.',
+        descrption: 'It is an application that helps students to take a test to know about their vocational orientation and thus be able to give options for technical, technological and professional careers.'
     },
     {
         id: 3,

@@ -32,7 +32,7 @@ const World = () => {
 }
 const Figma = () => {
     return (
-        <svg width="21" height="30" viewBox="0 0 21 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="100%" height="100%" viewBox="0 0 21 30" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5.25 30C8.148 30 10.5 27.76 10.5 25V20H5.25C2.352 20 0 22.24 0 25C0 27.76 2.352 30 5.25 30Z" fill="#0ACF83" />
             <path d="M0 15C0 12.24 2.352 10 5.25 10H10.5V20H5.25C2.352 20 0 17.76 0 15Z" fill="#A259FF" />
             <path d="M0 5C0 2.24 2.352 0 5.25 0H10.5V10H5.25C2.352 10 0 7.76 0 5Z" fill="#F24E1E" />
