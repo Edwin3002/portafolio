@@ -35,7 +35,7 @@ const CardPortafolio = ({ project, f}) => {
                     </div>
                     {
                         project.figma ? <div className='logoPorta'>
-                        <a href={project.figma[0]} target='_blanck'>
+                        <a href={project.figma} target='_blanck'>
                             <Figma />
                         </a>
                     </div> : ''
