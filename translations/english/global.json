@@ -10,10 +10,10 @@
         "phrase": "Develop solutions to help the world."
     },
     "about": {
-        "title": "Acerca de mi",
-        "subTitle": "I am Edwin Frontend Developer / Web Designer  / Diseñador Web",
+        "title": "About Me",
+        "subTitle": "I am Edwin Frontend Developer / Web Designer",
         "p1": "I am a Frontend Developer with experience building websites and web applications. I specialize in the design, and have experience working with React.",
-        "p2": "I also seek to improve my skills and continue to grow professionally in order to add value to any work group. And I love exploring opportunities, as well as participating in projects even without having much experience.",
+        "p2": "I also seek to improve my skills and continue to growing professionally in order to add value to any work group. And I love exploring opportunities, as well as participating in projects even without having much experience.",
         "cv": "Download CV"
     },
     "skills":{
