@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div id='about' className='mt-8 lg:mt-0'>
       <div  className='flex flex-col w-full lg:flex-row'>
-        <div className='flex w-full mx- lg:w-1/2'>
+        <div className='flex w-full lg:w-1/2'>
           <div className='w-4/5 m-auto'>
             <h2 className='font-bold text-3xl lg:text-4xl'>About Me</h2>
             <h3 className='text-2xl lg:text-3xl'>I am Edwin Frontend Developer</h3>

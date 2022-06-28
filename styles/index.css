@@ -241,3 +241,16 @@ html {
 footer {
   background-color: #474747;
 }
+
+.house{
+  border-radius: 20px;
+  border: 5px solid var(--green);
+}
+.house button{
+  border-radius: 10px;
+  background-color: var(--green);
+}
+.house button:hover{
+  border-radius: 10px;
+  background-color: var(--green2);
+}
