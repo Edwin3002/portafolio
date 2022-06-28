@@ -21,7 +21,7 @@ const About = () => {
               <br />
               I also seek to improve my skills and continue to grow professionally in order to add value to the work group of which I am a part. And I love exploring opportunities, as well as participating in projects even without having much expertise.
             </p>
-            <a href='https://drive.google.com/u/0/uc?id=1A_okfhnq7ovTZFmqlGB40LH_pnviqJ5H&export=download' target='_black' download="Edwin Vargas Ayala">
+            <a href='https://drive.google.com/uc?id=1Cm21f8ZYXtqMfu5py2zPHF2esMWeYm9g&export=download' target='_black' download="Edwin Vargas Ayala">
 
               <button className='btnCv rounded-lg px-4 py-1 flex items-center justify-around'>
                 <img src='https://res.cloudinary.com/edwin3002/image/upload/v1656015671/portafolio/cloud_ubonn6.png' alt='cloud' />
