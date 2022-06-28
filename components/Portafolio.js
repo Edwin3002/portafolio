@@ -3,10 +3,13 @@ import CardPortafolio from './CardPortafolio'
 import { projectsPortafolio } from '../data/projects'
 import ModalDescription from './ModalDescription'
 import App from './App'
+import { useTranslation } from 'react-i18next'
 
 const Portafolio = () => {
-  const [mod, setMod] = useState(false)
-  const [dataModal, setdataModal] = useState([])
+  const [mod, setMod] = useState(false);
+  const [dataModal, setdataModal] = useState([]);
+  const [t, i18n] = useTranslation("global");
+
   const modal = (data) => {
     setMod(!mod)
     setdataModal(data)
@@ -15,7 +18,7 @@ const Portafolio = () => {
 
   return (
     <div id='portafolio' className='mt-8' >
-      <h2 className='font-bold text-center text-3xl lg:text-4xl' >Portafolio</h2>
+      <h2 className='font-bold text-center text-3xl lg:text-4xl' >{t("portafolio.title")}</h2>
       <div className='my-8 flex mx-auto w-full '>
         <div className='my-auto w-4/5 m-auto p-1 '>
           <div className='flex w-full flex-wrap justify-around'>

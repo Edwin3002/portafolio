@@ -2,9 +2,11 @@ import React, { useState } from 'react'
 import { techSkills } from '../data/skills'
 import CardSkill from './CardSkill'
 import { motion, useTransform, useViewportScroll } from "framer-motion"
+import { useTranslation } from 'react-i18next'
 
 const About = () => {
   const [teskill, setTeskill] = useState(techSkills);
+  const [t, i18n] = useTranslation("global");
 
   const { scrollYProgress } = useViewportScroll()
   const scale = useTransform(scrollYProgress, [0, 0.5], [0.8, 1.2]);
@@ -13,26 +15,26 @@ const About = () => {
       <div className='flex flex-col w-full lg:flex-row'>
         <div className='flex w-full lg:w-1/2'>
           <div className='w-4/5 m-auto'>
-            <h2 className='font-bold text-3xl lg:text-4xl'>About Me</h2>
-            <h3 className='text-2xl lg:text-3xl font-bold'>I am Edwin Frontend Developer / Web Designer</h3>
+            <h2 className='font-bold text-3xl lg:text-4xl'>{t("about.title")}</h2>
+            <h3 className='text-2xl lg:text-3xl font-bold'>{t("about.subTitle")}</h3>
             <p className='my-6 text-lg lg:text-xl'>
-              I am a Frontend Developer with experience building websites and web applications. I specialize in the design, and have professional experience working with React.
+            {t("about.p1")}
               <br />
               <br />
-              I also seek to improve my skills and continue to grow professionally in order to add value to the work group of which I am a part. And I love exploring opportunities, as well as participating in projects even without having much expertise.
+              {t("about.p2")}
             </p>
             <a href='https://drive.google.com/uc?id=1Cm21f8ZYXtqMfu5py2zPHF2esMWeYm9g&export=download' target='_black' download="Edwin Vargas Ayala">
 
               <button className='btnCv rounded-lg px-4 py-1 flex items-center justify-around'>
                 <img src='https://res.cloudinary.com/edwin3002/image/upload/v1656015671/portafolio/cloud_ubonn6.png' alt='cloud' />
-                <p>Download-CV</p>
+                <p>{t("about.cv")}</p>
               </button>
             </a>
           </div>
         </div>
         <div className='my-16 w-full lg:w-1/2'>
           <div className='my-auto w-4/5 mx-auto p-1 '>
-            <h2 className='flex font-bold  text-3xl lg:text-4xl'>Skills</h2>
+            <h2 className='flex font-bold  text-3xl lg:text-4xl'>{t("skills.title")}</h2>
             <div className='flex w-full flex-wrap  justify-between'>
               {
                 teskill.map((ski) => (

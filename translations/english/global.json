@@ -2,11 +2,30 @@
     "navbar": {
         "home": "Home",
         "about": "About_Me",
-        "portafolio": "Portafolio",
+        "portafolio": "Projects",
         "contact": "Contact"
     },
     "home":{
         "hi": "Hi 👋🏼, I am Ed",
         "phrase": "Develop solutions to help the world."
+    },
+    "about": {
+        "title": "Acerca de mi",
+        "subTitle": "I am Edwin Frontend Developer / Web Designer  / Diseñador Web",
+        "p1": "I am a Frontend Developer with experience building websites and web applications. I specialize in the design, and have experience working with React.",
+        "p2": "I also seek to improve my skills and continue to grow professionally in order to add value to any work group. And I love exploring opportunities, as well as participating in projects even without having much experience.",
+        "cv": "Download CV"
+    },
+    "skills":{
+        "title": "Skills"
+    },
+    "portafolio":{
+        "title": "Projects",
+        "description": "Description"
+    },
+    "contact":{
+        "title": "Contact",
+        "p1": "Contact me if you want us to work together.",
+        "rights": " All Rights Reserved"
     }
 }

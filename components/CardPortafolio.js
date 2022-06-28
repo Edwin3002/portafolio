@@ -1,7 +1,9 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 import { Figma, Github, World } from '../icons/icons'
 
 const CardPortafolio = ({ project, f}) => {
+    const [t, i18n] = useTranslation("global");
     
     return (
         <div className=' my-4 mx-4 cardMaxWPorta rounded-2xl'>
@@ -44,7 +46,7 @@ const CardPortafolio = ({ project, f}) => {
                 <p className='mx-1'>
                     {project.technology}
                 </p>
-                <p className='underline desc' onClick={()=>{f(project)}}>Description</p>
+                <p className='underline desc' onClick={()=>{f(project)}}>{t("portafolio.description")}</p>
             </div>
         </div>
     )
