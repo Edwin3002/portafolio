@@ -1,10 +1,14 @@
 
 import React, { useEffect, useState } from 'react';
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 const Home1 = () => {
     const urlGit = 'https://api.github.com/users/Edwin3002'
-    const [git, setGit] = useState({})
+
+    const [git, setGit] = useState({});
+    const [t, i18n] = useTranslation("global");
+
     const dataGit = async () => {
         const res = await fetch(urlGit);
         const data = await res.json();
@@ -30,6 +34,7 @@ const Home1 = () => {
             opacity: 1
         }
     };
+
     useEffect(() => {
         dataGit();
     }, []);
@@ -54,14 +59,14 @@ const Home1 = () => {
                     <div className='flex w-full lg:w-1/2'>
                         <div className='m-auto p-1 text-center lg:text-left'>
                             <motion.li className="item" variants={item} >
-                                <h2 className='colorText font-bold text-4xl lg:text-5xl'>Hi 👋🏼, I am Ed</h2>
+                                <h2 className='colorText font-bold text-4xl lg:text-5xl'>{t("home.hi")}</h2>
                             </motion.li>
                             <motion.li className="item" variants={item} >
                                 <h3 className='font-bold text-3xl lg:text-4xl'>Frontend Developer</h3>
                             </motion.li>
                             <motion.li className="item" variants={item} >
                                 <p className='my-6  text-lg lg:text-2xl'>
-                                    Develop solutions to help the world.
+                                {t("home.phrase")}
                                 </p>
                             </motion.li>
                         </div>

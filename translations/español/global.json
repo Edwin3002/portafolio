@@ -4,5 +4,9 @@
         "about": "Acerca_De",
         "portafolio": "Portafolio",
         "contact": "Contacto"
+    },
+    "home":{
+        "hi": "Hola 👋🏼, Soy Ed",
+        "phrase": "Desarrollar soluciones para ayudar al mundo."
     }
 }

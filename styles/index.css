@@ -3,8 +3,8 @@
   --green: #57f794;
   --green2: #4cd982;
   --purple5: #a855f7;
-  --purple6: #9333EA;
-  --purple7: #7E22CE;
+  --purple6: #9333ea;
+  --purple7: #7e22ce;
   --purple8: #6b21a8;
 }
 
@@ -14,6 +14,12 @@
 html {
   scroll-behavior: smooth;
   background: #212121;
+}
+.es-en {
+  width: 30px;
+}
+.es-en:hover {
+  transform: scale(1.1);
 }
 .linkNav li:hover {
   border-bottom: 2px var(--green) solid;
@@ -242,15 +248,15 @@ footer {
   background-color: #474747;
 }
 
-.house{
+.house {
   border-radius: 20px;
   border: 5px solid var(--green);
 }
-.house button{
+.house button {
   border-radius: 10px;
   background-color: var(--green);
 }
-.house button:hover{
+.house button:hover {
   border-radius: 10px;
   background-color: var(--green2);
 }

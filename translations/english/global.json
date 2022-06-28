@@ -1,8 +1,12 @@
 {
     "navbar": {
-        "home": "Home21",
+        "home": "Home",
         "about": "About_Me",
         "portafolio": "Portafolio",
         "contact": "Contact"
+    },
+    "home":{
+        "hi": "Hi 👋🏼, I am Ed",
+        "phrase": "Develop solutions to help the world."
     }
 }
