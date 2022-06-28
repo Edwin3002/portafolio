@@ -37,6 +37,7 @@ const About = () => {
               {
                 teskill.map((ski) => (
                   <motion.div
+                    key={ski.id}
                     style={{ scale }}
                   >
                     <motion.div
@@ -44,7 +45,7 @@ const About = () => {
                         scaleY: scrollYProgress
                       }}
                     />
-                    <CardSkill key={ski.id} data={ski} />
+                    <CardSkill data={ski} />
                   </motion.div>
                 ))
               }
