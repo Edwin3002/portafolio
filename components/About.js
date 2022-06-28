@@ -7,7 +7,7 @@ const About = () => {
   const [teskill, setTeskill] = useState(techSkills);
   
   const { scrollYProgress } = useViewportScroll()
-  const scale = useTransform(scrollYProgress, [0, 1], [0.8, 1.2]);
+  const scale = useTransform(scrollYProgress, [0, 0.5], [0.8, 1.2]);
   return (
     <div id='about' className='mt-8 lg:mt-0'>
       <div  className='flex flex-col w-full lg:flex-row'>
