@@ -60,9 +60,7 @@ const Home1 = () => {
                                 <h3 className='font-bold text-3xl lg:text-4xl'>Frontend Developer</h3>
                             </motion.li>
                             <motion.li className="item" variants={item} >
-                                <p className='my-6  text-xl lg:text-3xl'>
-                                    Develop solutions to help the world.
-                                    Develop solutions to help the world.
+                                <p className='my-6  text-lg lg:text-2xl'>
                                     Develop solutions to help the world.
                                 </p>
                             </motion.li>
