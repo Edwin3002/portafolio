@@ -13,7 +13,7 @@ import globalEnglish from '../translations/english/global.json'
 export default function Home() {
   i18next.init({
     interpolation: { escapeValue: false },
-    lng: "english",
+    lng: "espanol",
     resources:{
       espanol:{
         global: globalEspanol

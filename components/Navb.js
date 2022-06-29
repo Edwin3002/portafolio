@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Translations } from '../icons/icons';
 
 const Navb = () => {
-  const [language, setLanguage] = useState('espanol');
+  const [language, setLanguage] = useState('english');
   const [t, i18n] = useTranslation("global");
 
   const changeL = () => {
