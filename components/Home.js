@@ -59,7 +59,7 @@ const Home1 = () => {
                     <div className='flex w-full lg:w-1/2'>
                         <div className='m-auto p-1 text-center lg:text-left'>
                             <motion.li className="item" variants={item} >
-                                <h2 className='colorText font-bold text-4xl lg:text-5xl'>{t("home.hi")}</h2>
+                                <h2 className='colorText neon font-bold text-4xl lg:text-5xl'>{t("home.hi")}</h2>
                             </motion.li>
                             <motion.li className="item" variants={item} >
                                 <h3 className='font-bold text-3xl lg:text-4xl'>Frontend Developer</h3>

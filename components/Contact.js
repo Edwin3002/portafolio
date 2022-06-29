@@ -35,7 +35,7 @@ const Contact = () => {
       </div>
       <footer className='text-center py-6'>
         Copyright © 2022. @
-        <a href="/">
+        <a href="#home">
           Edwin -
         </a>
         {t("contact.rights")}

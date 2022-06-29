@@ -27,7 +27,7 @@ export default function Home() {
     <I18nextProvider i18n={i18next}>
       <div>
         <Head>
-          <title>Edwin / Frontend Developer</title>
+          <title>Ed / Frontend Developer</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
         <Navb />
