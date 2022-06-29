@@ -23,7 +23,7 @@ export const projectsPortafolio = [
     },
     {
         id: 3,
-        name: 'Portafolio',
+        name: 'Portafolio / Briefcase',
         url: 'https://edwin-dev.vercel.app/',
         img: ['https://res.cloudinary.com/edwin3002/image/upload/v1656215552/portafolio/portafolio-1_kvmlnm.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1656215535/portafolio/portafolio-2_b70rdk.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1656215538/portafolio/portafolio-3_pwudi4.png'],
         github: 'https://github.com/Edwin3002/portafolio',

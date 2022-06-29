@@ -37,7 +37,7 @@ const ModalDescription = ({ data, f }) => {
                                     </div>
                                 </div>
                                 <div className='infoCardPorta text-center' onClick={() => { f(data) }}>
-                                    <p>Project Detail</p>
+                                    <p>{t('modal.detail')}</p>
                                     <div className='my-3 flex justify-around'>
                                         <div className='logoPorta logoModal'>
                                             <a href={data.url} target='_blanck'>
