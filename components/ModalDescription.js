@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useTranslation } from 'react-i18next';
 import { Figma, Github, World } from '../icons/icons'
 
 const ModalDescription = ({ data, f }) => {
+    const [t, i18n] = useTranslation("global");
+    const [des, setdes] = useState('description')
+
     return (
         <div>
             <div className="  fixed top-0 left-0 lg:right-0  z-50 w-full lg:w-3/4 mx-auto ">
@@ -58,7 +62,7 @@ const ModalDescription = ({ data, f }) => {
                                     </p>
                                     <hr className='my-1 mx-6 ' />
                                     <p className='mx-6 text-xs lg:text-sm'>
-                                        {data.descrption}
+                                        {data.description}
                                     </p>
                                     {/* <p className='underline desc' >Description</p> */}
                                 </div>
@@ -67,7 +71,7 @@ const ModalDescription = ({ data, f }) => {
                         <div className="flex justify-end p-6  ">
 
                             <button className='btnCv rounded-lg px-4 py-1 flex items-center justify-around ' onClick={() => { f() }}>
-                                <p>Close</p>
+                                <p>{t('modal.close')}</p>
                             </button>
                         </div>
                     </div>

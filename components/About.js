@@ -23,7 +23,7 @@ const About = () => {
               <br />
               {t("about.p2")}
             </p>
-            <a href='https://drive.google.com/uc?id=1Cm21f8ZYXtqMfu5py2zPHF2esMWeYm9g&export=download' target='_black' download="Edwin Vargas Ayala">
+            <a href={t("about.urlCv")} target='_black' download="Edwin Vargas Ayala">
 
               <button className='btnCv rounded-lg px-4 py-1 flex items-center justify-around'>
                 <img src='https://res.cloudinary.com/edwin3002/image/upload/v1656015671/portafolio/cloud_ubonn6.png' alt='cloud' />

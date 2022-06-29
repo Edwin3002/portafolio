@@ -14,7 +14,8 @@
         "subTitle": "I am Edwin Frontend Developer / Web Designer",
         "p1": "I am a Frontend Developer with experience building websites and web applications. I specialize in the design, and have experience working with React.",
         "p2": "I also seek to improve my skills and continue to growing professionally in order to add value to any work group. And I love exploring opportunities, as well as participating in projects even without having much experience.",
-        "cv": "Download CV"
+        "cv": "Download CV",
+        "urlCv": "https://drive.google.com/uc?id=1Cm21f8ZYXtqMfu5py2zPHF2esMWeYm9g&export=download"
     },
     "skills":{
         "title": "Skills"
@@ -22,6 +23,10 @@
     "portafolio":{
         "title": "Projects",
         "description": "Description"
+    },
+    "modal":{
+        "close": "Close",
+        "description": "description"
     },
     "contact":{
         "title": "Contact",
