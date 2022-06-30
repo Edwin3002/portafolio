@@ -28,6 +28,7 @@ export default function Home() {
       <div>
         <Head>
           <title>Ed / Frontend Developer</title>
+          <link rel = "icon" href="https://res.cloudinary.com/edwin3002/image/upload/v1656561378/portafolio/logo-circle_rqq2e4.png" type = "image/x-icon"></link>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
         <Navb />

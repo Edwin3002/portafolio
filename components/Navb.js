@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Translations } from '../icons/icons';
+import { Logo, Translations } from '../icons/icons';
 
 const Navb = () => {
   const [language, setLanguage] = useState('english');
@@ -12,14 +12,17 @@ const Navb = () => {
     } else {
       setLanguage('espanol')
     }
-    i18n.changeLanguage(language)
+    i18n.changeLanguage(language);
   }
 
   return (
     <div className="  flex fixed w-full z-40 h-14 colorNav">
       <div className=" basis-1/5 lg:basis-2/4 flex items-center">
         <ul className="flex w-3/4 m-auto">
-          <li className="text-slate-300">Edwin</li>
+          <li className="">
+            {/* <div className='inline rounded-full p-3  bg-white'> */}
+            <img className='w-1/3 md:w-1/6 pb-1 mx-auto inline' src='https://res.cloudinary.com/edwin3002/image/upload/v1656561378/portafolio/logo-circle_rqq2e4.png'></img>
+            </li>
         </ul>
       </div>
       <div className=" basis-4/5 lg:basis-2/4  flex  items-center ">
