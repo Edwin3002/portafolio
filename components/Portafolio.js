@@ -2,9 +2,7 @@ import React, { useState } from 'react'
 import CardPortafolio from './CardPortafolio'
 import { projectsPortafolio } from '../data/projects'
 import ModalDescription from './ModalDescription'
-import App from './App'
 import { useTranslation } from 'react-i18next'
-
 const Portafolio = () => {
   const [mod, setMod] = useState(false);
   const [dataModal, setdataModal] = useState([]);
@@ -15,7 +13,6 @@ const Portafolio = () => {
     setdataModal(data)
   }
 
-
   return (
     <div id='portafolio' className='mt-8' >
       <h2 className='font-bold text-center text-3xl lg:text-4xl' >{t("portafolio.title")}</h2>
@@ -24,11 +21,9 @@ const Portafolio = () => {
           <div className='flex w-full flex-wrap justify-around'>
             {
               projectsPortafolio.map((project) => (
-
                 <CardPortafolio key={project.id} project={project} f={modal} />
               ))
             }
-
           </div>
           <div className='m-auto flex'>
             {

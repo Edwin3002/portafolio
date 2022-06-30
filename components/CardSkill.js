@@ -1,5 +1,6 @@
 import React from 'react'
 const CardSkill = ({ data }) => {
+    
     return (
         <div  className='animate__animated animate__bounce my-4 mx-auto p-2 w-full  cardMaxW rounded'>
             <div className='imgCard'>

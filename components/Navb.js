@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Logo, Translations } from '../icons/icons';
+import { Translations } from '../icons/icons';
 
 const Navb = () => {
   const [language, setLanguage] = useState('english');
@@ -51,7 +51,6 @@ const Navb = () => {
             <div  className='es-en my-auto' onClick={() => {changeL()}}>
               <Translations />
             </div>
-            {/* <button onClick={() => {changeL()}}>eng</button> */}
           </li>
         </ul>
       </div>

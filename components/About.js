@@ -10,6 +10,7 @@ const About = () => {
 
   const { scrollYProgress } = useViewportScroll()
   const scale = useTransform(scrollYProgress, [0, 0.5], [0.8, 1.2]);
+  
   return (
     <div id='about' className='mt-8 lg:mt-0'>
       <div className='flex flex-col w-full lg:flex-row'>
@@ -24,7 +25,6 @@ const About = () => {
               {t("about.p2")}
             </p>
             <a href={t("about.urlCv")} target='_black' download="Edwin Vargas Ayala">
-
               <button className='btnCv rounded-lg px-4 py-1 flex items-center justify-around'>
                 <img src='https://res.cloudinary.com/edwin3002/image/upload/v1656015671/portafolio/cloud_ubonn6.png' alt='cloud' />
                 <p>{t("about.cv")}</p>
