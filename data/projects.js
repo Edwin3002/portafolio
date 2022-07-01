@@ -8,7 +8,7 @@ export const projectsPortafolio = [
         figma: 'https://www.figma.com/proto/ihVA2GvbVv2ayN9MG060Vf/Restaurant?page-id=0%3A1&node-id=3%3A3&viewport=-443%2C143%2C0.74&scaling=scale-down&starting-point-node-id=3%3A3',
         technology: 'React.js, Firebase, React-BootStrap, Redux, Figma.',
         description: 'A web page which allows you to look at the menu of a restaurant, in addition to being able to place orders and modify them. And finally confirm the order which will be reflected in the sales part.',
-        description2: 'Una pagina web la cual permite mirar el menu de un restaurante, ademas de poder realizar pedidos y modificarlos. Y por ultimo confirmar el pedido el cual se vera reflejado en la parte de ventas..'
+        description2: 'Una pagina web la cual permite mirar el menu de un restaurante, ademas de poder realizar pedidos y modificarlos. Y por ultimo confirmar el pedido el cual se vera reflejado en la parte de ventas.'
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ export const projectsPortafolio = [
         figma: 'https://www.figma.com/proto/okvLSbGpf2CwqCzF0jz9WS/Asistente-prof?page-id=0%3A1&node-id=213%3A2&viewport=143%2C512%2C0.14&scaling=contain&starting-point-node-id=213%3A2',
         technology: 'React.js, Redux, React-BootStrap, Cloudinary, SweetAlert2, EmailJS, JS-Pdf, Figma, Firebase.',
         description: 'It is an application that helps students to take a test to know about their vocational orientation and thus be able to give options for technical, technological and professional careers.',
-        description2: 'Es una aplicación que ayuda a los estudiantes a realizar un examen para conocer su orientación vocacional y así poder dar opciones de carreras técnicas, tecnológicas y profesionales..'
+        description2: 'Es una aplicación que ayuda a los estudiantes a realizar un examen para conocer su orientación vocacional y así poder dar opciones de carreras técnicas, tecnológicas y profesionales.'
     },
     {
         id: 3,
@@ -49,8 +49,8 @@ export const projectsPortafolio = [
         img: ['https://res.cloudinary.com/edwin3002/image/upload/v1656224267/portafolio/landing-1_z9ltex.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224270/portafolio/landing-2_qtlkwb.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224269/portafolio/landing-3_cvnelr.png'],
         github: 'https://github.com/Edwin3002/landing-page-Fylo',
         technology: 'React.js, FontAwesome, Chakra ui.',
-        description: 'It is a landing page which was programmed from a figma design that does not belong to me',
-        description2: 'Es una landing page la cual fue programada a partir de un diseño de figma que no me pertenece'
+        description: 'It is a landing page which was programmed from a figma design.',
+        description2: 'Es una landing page la cual fue pasada a codigo a partir de un diseño de figma.'
     },
     // {
     //     id: 6,
