@@ -49,7 +49,7 @@ export const projectsPortafolio = [
         img: ['https://res.cloudinary.com/edwin3002/image/upload/v1656224267/portafolio/landing-1_z9ltex.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224270/portafolio/landing-2_qtlkwb.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224269/portafolio/landing-3_cvnelr.png'],
         github: 'https://github.com/Edwin3002/landing-page-Fylo',
         technology: 'React.js, FontAwesome, Chakra ui.',
-        description: 'It is a landing page which was programmed from a figma design.',
+        description: 'It is a landing page which was passed to code from a figma design.',
         description2: 'Es una landing page la cual fue pasada a codigo a partir de un diseño de figma.'
     },
     // {
