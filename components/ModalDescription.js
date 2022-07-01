@@ -1,10 +1,20 @@
-import React, { } from 'react'
+import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next';
 import { Figma, Github, World } from '../icons/icons'
 
 const ModalDescription = ({ data, f }) => {
     const [t, i18n] = useTranslation("global");
-
+    const [des, setdes] = useState(data.description2)
+    const [btnTrans, setBtnTrans] = useState('Translate')
+    const changeDes =()=>{
+        if(des === data.description2){
+            setdes(data.description)
+            setBtnTrans('Traducir')
+        }else{
+            setdes(data.description2)
+            setBtnTrans('Translate')
+        }
+    }
     return (
         <div>
             <div className="  fixed top-0 left-0 lg:right-0  z-50 w-full lg:w-3/4 mx-auto ">
@@ -57,12 +67,15 @@ const ModalDescription = ({ data, f }) => {
                                         }
                                     </div>
                                     <p className='m-4 text-xs lg:text-sm'>
-                                        {data.description}
+                                        {des}
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div className="flex justify-end p-6  ">
+                            <button className='btnDes mx-6 rounded-lg px-4 py-1 flex items-center justify-around ' onClick={changeDes} >
+                                <p>{btnTrans}</p>
+                            </button>
                             <button className='btnCv rounded-lg px-4 py-1 flex items-center justify-around ' onClick={() => { f() }}>
                                 <p>{t('modal.close')}</p>
                             </button>

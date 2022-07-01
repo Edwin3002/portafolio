@@ -36,11 +36,17 @@ html{
 .btnCv {
   background: var(--green);
 }
+.btnDes {
+  background: var(--purple7);
+}
 .btnCv p {
   color: black;
 }
 .btnCv:hover {
   background: var(--green2);
+}
+.btnDes:hover {
+  background: var(--purple8);
 }
 .colorNav {
   background: var(--purple7);
