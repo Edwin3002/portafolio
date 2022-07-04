@@ -6,15 +6,14 @@ import { useTranslation } from 'react-i18next';
 const Home1 = () => {
     const urlGit = 'https://api.github.com/users/Edwin3002'
 
-    const [git, setGit] = useState({});
+    const [photo, setPhoto] = useState('https://res.cloudinary.com/edwin3002/image/upload/v1656974851/portafolio/ed_mgrnc9.png');
     const [t, i18n] = useTranslation("global");
 
-    const dataGit = async () => {
-        const res = await fetch(urlGit);
-        const data = await res.json();
-        setGit(data);
-    }
-    const { avatar_url } = git
+    // const dataGit = async () => {
+    //     const res = await fetch(urlGit);
+    //     const data = await res.json();
+    //     setGit(data);
+    // }
     const container = {
         hidden: { opacity: 1, scale: 0 },
         visible: {
@@ -35,9 +34,6 @@ const Home1 = () => {
         }
     };
 
-    useEffect(() => {
-        dataGit();
-    }, []);
 
     return (
         <div id="home" className="h-screen bg-cover   bg-[url('https://res.cloudinary.com/edwin3002/image/upload/v1656358366/portafolio/portafolioBG3_kaviwh.jpg')]">
@@ -49,10 +45,10 @@ const Home1 = () => {
                     <div className='flex mt-20 md:mt-10 w-full lg:w-1/2'>
                         <div className=' m-auto'>
                             <motion.li className="item" variants={item} >
-                                <img className='rounded-full w-3/4 m-auto' src={avatar_url} alt='Edwin vargas' />
+                                <img className='w-3/4 m-auto' src={photo ? photo : 'https://ouch-cdn2.icons8.com/lKuVLNguQl_yxSAw5bVEIPSlgGLY3D2nd27prwfwzrk/rs:fit:256:256/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvODA3/LzM0NDExZmZlLTdk/YzYtNDYyNC04Nzgx/LTc1Zjc0MzFhM2Fk/Zi5zdmc.png'} alt='Edwin vargas' />
                             </motion.li>
                             <motion.li className="item" variants={item} >
-                                <h2 className=' text-center text-4xl lg:text-5xl'>Edwin Vargas Ayala</h2>
+                                <h2 className='text-center text-4xl lg:text-5xl'>Edwin Vargas Ayala</h2>
                             </motion.li>
                         </div>
                     </div>
