@@ -52,15 +52,16 @@ export const projectsPortafolio = [
         description: 'It is a landing page which was passed to code from a figma design.',
         description2: 'Es una landing page la cual fue pasada a codigo a partir de un diseño de figma.'
     },
-    // {
-    //     id: 6,
-    //     name: 'Figuras',
-    //     url: 'https://figuritas.netlify.app/',
-    //     img: ['https://res.cloudinary.com/edwin3002/image/upload/v1656224276/portafolio/figuritas-1_b7fkpr.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224277/portafolio/figuritas-2_aonuve.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224265/portafolio/figuritas-3_jlglrt.png'],
-    //     github: 'https://github.com/Edwin3002/Figuras',
-    //     technology: 'React.js, SweetAlert2, Material ui, Heroku.',
-    //     descrption: ''
-    // },
+    {
+        id: 6,
+        name: 'Landing Page Shortly',
+        url: 'https://seedem-edwin.vercel.app/',
+        img: ['https://res.cloudinary.com/edwin3002/image/upload/v1658262877/portafolio/shortly-1_jpcfel.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1658262878/portafolio/shortly-2_ruf0mx.png','https://res.cloudinary.com/edwin3002/image/upload/v1658262878/portafolio/shortly-3_vbyj2g.png'],
+        github: 'https://github.com/Edwin3002/seedem',
+        technology: 'React.js, Tailwind, Uuid, React copy to clipboard.',
+        descrption: 'It is a landing page which connects to an api to shorten the long links that you have entered on the page',
+        descrption2: 'Es una landing page la cual se conecta a una api para acortar los links largos que hayas introducido en la página'
+    },
     // {
     //     id: 7,
     //     name: 'Cards',
