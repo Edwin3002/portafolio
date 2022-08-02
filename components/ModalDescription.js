@@ -5,14 +5,14 @@ import { Figma, Github, World } from '../icons/icons'
 const ModalDescription = ({ data, f }) => {
     const [t, i18n] = useTranslation("global");
     const [des, setdes] = useState(data.description2)
-    const [btnTrans, setBtnTrans] = useState('Traducir')
+    const [btnTrans, setBtnTrans] = useState('Translate to Eng')
     const changeDes =()=>{
         if(des === data.description2){
             setdes(data.description)
-            setBtnTrans('Translate')
+            setBtnTrans('Traducir a Esp')
         }else{
             setdes(data.description2)
-            setBtnTrans('Traducir')
+            setBtnTrans('Translate to Eng')
         }
     }
     return (
