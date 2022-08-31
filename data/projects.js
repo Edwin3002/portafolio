@@ -38,7 +38,7 @@ export const projectsPortafolio = [
         url: 'https://to-do-ed.vercel.app/',
         img: ['https://res.cloudinary.com/edwin3002/image/upload/v1656652143/portafolio/to-do-1_pkf1nm.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1656652144/portafolio/to-do-2_xsx0hk.png','https://res.cloudinary.com/edwin3002/image/upload/v1656652143/portafolio/to-do-3_voosim.png'],
         github: 'https://github.com/Edwin3002/To-do',
-        technology: 'React.js, Tailwind, Redix, Uuid.',
+        technology: 'React.js, Tailwind, Redux, Uuid.',
         description: 'It is a page to add, edit or delete tasks in addition to being able to mark them as done.',
         description2: 'Es una página para agregar, editar o eliminar  tareas además de poder marcarlas como realizadas.'
     },
