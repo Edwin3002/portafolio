@@ -62,6 +62,16 @@ export const projectsPortafolio = [
         description: 'It is a landing page which connects to an api to shorten the long links that you have entered on the page.',
         description2: 'Es una landing page la cual se conecta a una api para acortar los links largos que hayas introducido en la página.'
     },
+    {
+        id: 7,
+        name: 'Task to-do MERN',
+        url: 'https://task-merg-client.vercel.app/',
+        img: ['https://res.cloudinary.com/edwin3002/image/upload/v1658262877/portafolio/shortly-1_jpcfel.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1658262878/portafolio/shortly-2_ruf0mx.png','https://res.cloudinary.com/edwin3002/image/upload/v1658262878/portafolio/shortly-3_vbyj2g.png'],
+        github: 'https://github.com/Edwin3002/server-heroku',
+        technology: 'Vite, Tailwind, MySql, Express.',
+        description: 'MERN app made with express on the server, it also brings the information from a Sql database and Vite as a client that consumes the api "https://mern-task-edwin.herokuapp.com/tasks" and can make http requests with CRUD.',
+        description2: 'App MERN realizada con express en el servidor, ademas trae la información  de una base de datos  Sql y Vite como cliente que cosume la api "https://mern-task-edwin.herokuapp.com/tasks" y puede realizar peticiones http con CRUD.'
+    },
     // {
     //     id: 7,
     //     name: 'Cards',
