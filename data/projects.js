@@ -65,7 +65,7 @@ export const projectsPortafolio = [
     {
         id: 7,
         name: 'Task to-do MERN',
-        url: 'https://task-merg-client.vercel.app/',
+        url: 'https://task-mern-client.vercel.app/',
         img: ['https://res.cloudinary.com/edwin3002/image/upload/v1662685107/portafolio/task-api-1_rsqtv7.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1662685107/portafolio/task-api-2_bjlc5h.png','https://res.cloudinary.com/edwin3002/image/upload/v1662685107/portafolio/task-api-3_aqwktt.png'],
         github: 'https://github.com/Edwin3002/server-heroku',
         technology: 'Vite, Tailwind, MySql, Express.',
