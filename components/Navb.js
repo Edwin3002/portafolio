@@ -34,7 +34,7 @@ const Navb = () => {
           </li>
           <li className='flex'>
             <a className='my-auto' href="#about">
-              {t("navbar.about")}
+              {t("navbar.about")} (CV)
             </a>
           </li>
           <li className='flex'>

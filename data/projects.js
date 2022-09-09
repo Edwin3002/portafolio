@@ -66,7 +66,7 @@ export const projectsPortafolio = [
         id: 7,
         name: 'Task to-do MERN',
         url: 'https://task-merg-client.vercel.app/',
-        img: ['https://res.cloudinary.com/edwin3002/image/upload/v1658262877/portafolio/shortly-1_jpcfel.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1658262878/portafolio/shortly-2_ruf0mx.png','https://res.cloudinary.com/edwin3002/image/upload/v1658262878/portafolio/shortly-3_vbyj2g.png'],
+        img: ['https://res.cloudinary.com/edwin3002/image/upload/v1662685107/portafolio/task-api-1_rsqtv7.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1662685107/portafolio/task-api-2_bjlc5h.png','https://res.cloudinary.com/edwin3002/image/upload/v1662685107/portafolio/task-api-3_aqwktt.png'],
         github: 'https://github.com/Edwin3002/server-heroku',
         technology: 'Vite, Tailwind, MySql, Express.',
         description: 'MERN app made with express on the server, it also brings the information from a Sql database and Vite as a client that consumes the api "https://mern-task-edwin.herokuapp.com/tasks" and can make http requests with CRUD.',
