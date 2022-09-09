@@ -68,7 +68,7 @@ export const projectsPortafolio = [
         url: 'https://task-mern-client.vercel.app/',
         img: ['https://res.cloudinary.com/edwin3002/image/upload/v1662685107/portafolio/task-api-1_rsqtv7.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1662685107/portafolio/task-api-2_bjlc5h.png','https://res.cloudinary.com/edwin3002/image/upload/v1662685107/portafolio/task-api-3_aqwktt.png'],
         github: 'https://github.com/Edwin3002/server-heroku',
-        figma: 'https://www.figma.com/proto/NVwqcW6AYdaXpvpr0Bb0tt/Task-MERN?page-id=0%3A1&node-id=7%3A433&viewport=88%2C397%2C0.24&scaling=contain&starting-point-node-id=1%3A3',
+        figma: 'https://www.figma.com/proto/NVwqcW6AYdaXpvpr0Bb0tt/Task-MERN?page-id=0%3A1&node-id=1%3A3&viewport=88%2C397%2C0.24&scaling=contain&starting-point-node-id=1%3A3',
         technology: 'Vite, Tailwind, MySql, Express.',
         description: 'MERN app made with express on the server, it also brings the information from a Sql database and Vite as a client that consumes the api "https://mern-task-edwin.herokuapp.com/tasks" and can make http requests with CRUD.',
         description2: 'App MERN realizada con express en el servidor, ademas trae la información  de una base de datos  Sql y Vite como cliente que cosume la api "https://mern-task-edwin.herokuapp.com/tasks" y puede realizar peticiones http con CRUD.'
