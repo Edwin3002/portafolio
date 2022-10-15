@@ -15,9 +15,7 @@ html{
   scroll-behavior: smooth;
   background: #212121;
 }
-.es-en {
-  width: 30px;
-}
+
 .es-en:hover {
   transform: scale(1.1);
 }
