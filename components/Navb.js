@@ -18,7 +18,7 @@ const Navb = () => {
   }
 
   return (
-    <nav className="fixed w-full z-10  px-2 sm:px-4 py-  colorNav">
+    <nav className="fixed w-full z-10  px-2 sm:px-4 py-2  colorNav">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="" className="flex items-center">
           <img
