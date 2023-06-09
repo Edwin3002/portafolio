@@ -20,18 +20,18 @@ export const projectsPortafolio = [
         technology: 'React.js, Redux, React-BootStrap, Cloudinary, SweetAlert2, EmailJS, JS-Pdf, Figma, Firebase.',
         description: 'It is an application that helps students to take a test to know about their vocational orientation and thus be able to give options for technical, technological and professional careers.',
         description2: 'Es una aplicación que ayuda a los estudiantes a realizar un examen para conocer su orientación vocacional y así poder dar opciones de carreras técnicas, tecnológicas y profesionales.'
-    },,
-    {
-        id: 7,
-        name: 'Task to-do MERN',
-        url: 'https://task-mern-client.vercel.app/',
-        img: ['https://res.cloudinary.com/edwin3002/image/upload/v1662685107/portafolio/task-api-1_rsqtv7.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1662685107/portafolio/task-api-2_bjlc5h.png','https://res.cloudinary.com/edwin3002/image/upload/v1662685107/portafolio/task-api-3_aqwktt.png'],
-        github: 'https://github.com/Edwin3002/server-heroku',
-        figma: 'https://www.figma.com/proto/NVwqcW6AYdaXpvpr0Bb0tt/Task-MERN?page-id=0%3A1&node-id=1%3A3&viewport=88%2C397%2C0.24&scaling=contain&starting-point-node-id=1%3A3',
-        technology: 'Vite, Node.js, Tailwind, SweetAlert2, MySql, Express, Figma.',
-        description: 'MERN app made with express on the server, it also brings the information from a Sql database and Vite as a client that consumes the api "https://mern-task-edwin.herokuapp.com/tasks" and can make http requests with CRUD.',
-        description2: 'App MERN realizada con express en el servidor, ademas trae la información  de una base de datos  Sql y Vite como cliente que cosume la api "https://mern-task-edwin.herokuapp.com/tasks" y puede realizar peticiones http con CRUD.'
     },
+//     {
+//         id: 7,
+//         name: 'Task to-do MERN',
+//         url: 'https://task-mern-client.vercel.app/',
+//         img: ['https://res.cloudinary.com/edwin3002/image/upload/v1662685107/portafolio/task-api-1_rsqtv7.png', 'https://res.cloudinary.com/edwin3002/image/upload/v1662685107/portafolio/task-api-2_bjlc5h.png','https://res.cloudinary.com/edwin3002/image/upload/v1662685107/portafolio/task-api-3_aqwktt.png'],
+//         github: 'https://github.com/Edwin3002/server-heroku',
+//         figma: 'https://www.figma.com/proto/NVwqcW6AYdaXpvpr0Bb0tt/Task-MERN?page-id=0%3A1&node-id=1%3A3&viewport=88%2C397%2C0.24&scaling=contain&starting-point-node-id=1%3A3',
+//         technology: 'Vite, Node.js, Tailwind, SweetAlert2, MySql, Express, Figma.',
+//         description: 'MERN app made with express on the server, it also brings the information from a Sql database and Vite as a client that consumes the api "https://mern-task-edwin.herokuapp.com/tasks" and can make http requests with CRUD.',
+//         description2: 'App MERN realizada con express en el servidor, ademas trae la información  de una base de datos  Sql y Vite como cliente que cosume la api "https://mern-task-edwin.herokuapp.com/tasks" y puede realizar peticiones http con CRUD.'
+//     },
     {
         id: 3,
         name: 'Portafolio / Briefcase',
