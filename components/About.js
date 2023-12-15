@@ -3,10 +3,11 @@ import { techSkills } from "../data/skills";
 import CardSkill from "./CardSkill";
 import { motion, useTransform, useViewportScroll } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { Download } from "../icons/icons";
 
 const About = () => {
   const [teskill, setTeskill] = useState(techSkills);
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
   const { scrollYProgress } = useViewportScroll();
   const scale = useTransform(scrollYProgress, [0, 0.5], [0.8, 1.0]);
@@ -34,10 +35,9 @@ const About = () => {
               download="Edwin Vargas Ayala"
             >
               <button className="btnCv rounded-lg px-4 py-1 flex items-center justify-around">
-                <img
-                  src="https://res.cloudinary.com/edwin3002/image/upload/v1656015671/portafolio/cloud_ubonn6.png"
-                  alt="cloud"
-                />
+                <div className=" mr-4">
+                  <Download />
+                </div>
                 <p>{t("about.cv")}</p>
               </button>
             </a>

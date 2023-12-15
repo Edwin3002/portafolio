@@ -7,7 +7,7 @@ export const techSkills = [
   {
     id: 11,
     name: "Next js",
-    img: "https://res.cloudinary.com/edwin3002/image/upload/v1702528845/portafolio/icons/next_xzwzh0.png",
+    img: "https://res.cloudinary.com/edwin3002/image/upload/v1702594932/portafolio/icons/next_h0zhh5.png",
   },
   {
     id: 21,
