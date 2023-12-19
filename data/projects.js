@@ -45,9 +45,9 @@ export const projectsPortafolio = [
     // github: "https://github.com/Edwin3002/Restaurante-Parrillla",
     technology: "Flutter, Go Router, Provider, Dio, Isar",
     description:
-      "1. Restaurant app focused on customers that consumes the back of the previous project - nextjs; 2.App that consumes an endpoint of new movies, which you can save in favorites and are saved in a local DB; 3.Todo App with a crud to write down tasks.",
+      "1. Restaurant app focused on customers, the app consumes the back of the previous project - nextjs; 2. App that uses an endpoint of new movies, which can be saved in favorites and are stored in a local database; 3. Everything App with a crud to write down tasks.",
     description2:
-      "1. App del restaurante enfocada a los clientes que consume el back del proyecto anterior - nextjs;  2.App que cosume un endpoint de peliculas en estreno, las cuales pudes guardas en favoritos y se guardan en una DB local; 3.Todo App con un crud para anotar tareas.",
+      "1. App del restaurante enfocada para los clientes, la app consume el back del proyecto anterior - nextjs;  2. App que cosume un endpoint de peliculas en estreno, las cuales pudes guardas en favoritos y se almacena en una DB local; 3.Todo App con un crud para anotar tareas.",
   },
   {
     id: 20,
