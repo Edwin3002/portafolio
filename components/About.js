@@ -28,7 +28,7 @@ const About = () => {
               <br />
               {t("about.p2")}
             </p>
-            <a
+            {/* <a
               href={t("about.urlCv")}
               target="_black"
               download="Edwin Vargas Ayala"
@@ -39,7 +39,7 @@ const About = () => {
                 </div>
                 <p>{t("about.cv")}</p>
               </button>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="my-16 w-full lg:w-1/2">
