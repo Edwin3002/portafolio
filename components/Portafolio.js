@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next'
 const Portafolio = () => {
   const [mod, setMod] = useState(false);
   const [dataModal, setdataModal] = useState([]);
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
   const modal = (data) => {
     setMod(!mod)

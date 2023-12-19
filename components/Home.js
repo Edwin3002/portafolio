@@ -4,16 +4,10 @@ import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
 
 const Home1 = () => {
-    const urlGit = 'https://api.github.com/users/Edwin3002'
 
     const [photo, setPhoto] = useState('https://res.cloudinary.com/edwin3002/image/upload/v1656974851/portafolio/ed_mgrnc9.png');
-    const [t, i18n] = useTranslation("global");
+    const [t] = useTranslation("global");
 
-    // const dataGit = async () => {
-    //     const res = await fetch(urlGit);
-    //     const data = await res.json();
-    //     setGit(data);
-    // }
     const container = {
         hidden: { opacity: 1, scale: 0 },
         visible: {
@@ -34,7 +28,6 @@ const Home1 = () => {
         }
     };
 
-
     return (
         <div id="home" className="h-screen bg-cover   bg-[url('https://res.cloudinary.com/edwin3002/image/upload/v1656358366/portafolio/portafolioBG3_kaviwh.jpg')]">
                 <motion.ul
@@ -48,7 +41,7 @@ const Home1 = () => {
                                 <img className='w-3/4 m-auto' src={photo ? photo : 'https://ouch-cdn2.icons8.com/lKuVLNguQl_yxSAw5bVEIPSlgGLY3D2nd27prwfwzrk/rs:fit:256:256/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvODA3/LzM0NDExZmZlLTdk/YzYtNDYyNC04Nzgx/LTc1Zjc0MzFhM2Fk/Zi5zdmc.png'} alt='Edwin vargas' />
                             </motion.li>
                             <motion.li className="item" variants={item} >
-                                <h2 className='text-center text-4xl lg:text-5xl'>Edwin Vargas Ayala</h2>
+                                <h2 className='text-center text-4xl lg:text-5xl'>Edwin Vargas</h2>
                             </motion.li>
                         </div>
                     </div>
@@ -58,7 +51,7 @@ const Home1 = () => {
                                 <h2 className='colorText neon font-bold text-4xl lg:text-5xl'>{t("home.hi")}</h2>
                             </motion.li>
                             <motion.li className="item" variants={item} >
-                                <h3 className='font-bold text-3xl lg:text-4xl'>Frontend Developer</h3>
+                                <h3 className='font-bold text-3xl lg:text-4xl'>{t("home.rol")}</h3>
                             </motion.li>
                             <motion.li className="item" variants={item} >
                                 <p className='my-6  text-lg lg:text-2xl'>

@@ -1,34 +1,36 @@
 {
+    "language": "en",
     "navbar": {
         "home": "Home",
         "about": "About_Me",
         "portafolio": "Projects",
         "contact": "Contact"
     },
-    "home":{
-        "hi": "Hi 👋🏼, I am Ed",
-        "phrase": "I develop solutions to help the world."
+    "home": {
+        "hi": "Hi 👋🏼, I am ED",
+        "rol": "Frontend Developer",
+        "phrase": "I create solutions according to your needs."
     },
     "about": {
         "title": "About Me",
         "subTitle": "I am Edwin, Frontend Developer",
-        "p1": "I am a Frontend Developer with experience building websites and web applications. I specialize in the design, and have experience working with React.",
-        "p2": "I also seek to improve my skills and continue to growing professionally in order to add value to any work group. And I love exploring opportunities, as well as participating in projects.",
+        "p1": "Frontend Developer with experience  in creating web applications and Cross-Platform Apps. I specialize in the design, and have experience working with the MERN stack.",
+        "p2": "I also look for new challenges and to continue growing professionally to add value to any work group.",
         "cv": "Download CV - Eng",
         "urlCv": "https://drive.google.com/u/0/uc?id=1Lz9n4fMkiIgJZ8PQP8boXnj895wkv7Lv&export=download"
     },
-    "skills":{
+    "skills": {
         "title": "Skills"
     },
-    "portafolio":{
+    "portafolio": {
         "title": "Projects",
         "description": "Description"
     },
-    "modal":{
+    "modal": {
         "detail": "Project Details",
         "close": "Close"
     },
-    "contact":{
+    "contact": {
         "title": "Contact",
         "p1": "Contact me if you want us to work together.",
         "rights": " All Rights Reserved"

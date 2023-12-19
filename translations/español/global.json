@@ -1,4 +1,5 @@
 {
+    "language": "es",
     "navbar": {
         "home": "Inicio",
         "about": "Sobre_Mí",
@@ -6,29 +7,30 @@
         "contact": "Contacto"
     },
     "home": {
-        "hi": "Hola 👋🏼, Soy Ed",
-        "phrase": "Desarrollo soluciones para ayudar al mundo."
+        "hi": "Hola 👋🏼, Soy ED",
+        "rol": "Desarrollador Frontend",
+        "phrase": "Creo soluciones según tus necesidades."
     },
     "about": {
         "title": "Sobre Mí",
         "subTitle": "Soy Edwin, Frontend Developer",
-        "p1": "Soy un Desarrollador Frontend con experiencia en la creación de sitios web y aplicaciones web. Me especializo en el diseño y tengo experiencia trabajando con React.",
-        "p2": "También busco mejorar mis habilidades y seguir creciendo profesionalmente para poder agregar valor a cualquier  grupo de trabajo. Y me encanta explorar oportunidades, así como participar en proyectos.",
+        "p1": "Desarrollador Frontend con experiencia en la creación de aplicaciones web y apps multiplataforma. Me especializo en el diseño y tengo experiencia trabajando con el stack MERN.",
+        "p2": "También busco nuevos retos y seguir creciendo profesionalmente para poder agregar valor a cualquier grupo de trabajo.",
         "cv": "Descargar CV - Esp",
         "urlCv": "https://drive.google.com/u/0/uc?id=1IoqqxMv0ia82diIlcYm0pmwiYU4tYcW9&export=download"
     },
-    "skills":{
+    "skills": {
         "title": "Habilidades"
     },
-    "portafolio":{
+    "portafolio": {
         "title": "Proyectos",
         "description": "Descripción"
     },
-    "modal":{
+    "modal": {
         "detail": "Detalles del Proyecto",
         "close": "Cerrar"
     },
-    "contact":{
+    "contact": {
         "title": "Contacto",
         "p1": "Contactame si quieres que trabajemos juntos.",
         "rights": "Todos los derechos reservados"

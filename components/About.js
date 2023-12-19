@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import { Download } from "../icons/icons";
 
 const About = () => {
-  const [teskill, setTeskill] = useState(techSkills);
+  const [teskill] = useState(techSkills);
   const [t] = useTranslation("global");
 
   const { scrollYProgress } = useViewportScroll();
@@ -20,12 +20,11 @@ const About = () => {
             <h2 className="font-bold text-3xl lg:text-4xl">
               {t("about.title")}
             </h2>
-            <h3 className="text-2xl lg:text-3xl font-bold">
+            {/* <h3 className="text-2xl lg:text-3xl font-bold">
               {t("about.subTitle")}
-            </h3>
-            <p className="my-6 text-lg lg:text-xl">
+            </h3> */}
+            <p className="my-6 text-lg lg:text-xl text-justify">
               {t("about.p1")}
-              <br />
               <br />
               {t("about.p2")}
             </p>
