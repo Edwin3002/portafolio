@@ -10,35 +10,7 @@ const Contact = () => {
       <div className="mx-auto w-3/4">
         <h2 className="font-bold text-3xl lg:text-4xl">{t("contact.title")}</h2>
         <p className="my-6 text-xl lg:text-2xl">{t("contact.p1")}</p>
-        <div className="container my-16 flex justify-around">
-          <div className="card">
-            <a
-              href="https://www.linkedin.com/in/edwin-vargas-ayala"
-              target="_blanck"
-            >
-              <div className="logo">
-                <Linkedin />
-              </div>
-              <div className="logoName">Linkedin</div>
-            </a>
-          </div>
-          <div className="card">
-            <a href="https://github.com/Edwin3002" target="_blanck">
-              <div className="logo">
-                <Github />
-              </div>
-              <div className="logoName">Github</div>
-            </a>
-          </div>
-          <div className="card">
-            <a href="mailto:edwin.dev3002@gmail.com" target="_blanck">
-              <div className="logo">
-                <Mail />
-              </div>
-              <div className="logoName">Mail</div>
-            </a>
-          </div>
-        </div>
+        <ContactLinks />
       </div>
       <footer className="text-center py-6">
         Copyright © 2024. @<a href="#home">Edwin -</a>
@@ -49,3 +21,37 @@ const Contact = () => {
 };
 
 export default Contact;
+
+export const ContactLinks = ({className = "container my-16 flex justify-around"}) => {
+  return (
+    <div className={className}>
+      <div className="card">
+        <a
+          href="https://www.linkedin.com/in/edwin-vargas-ayala"
+          target="_blanck"
+        >
+          <div className="logo">
+            <Linkedin />
+          </div>
+          <div className="logoName">Linkedin</div>
+        </a>
+      </div>
+      <div className="card">
+        <a href="https://github.com/Edwin3002" target="_blanck">
+          <div className="logo">
+            <Github />
+          </div>
+          <div className="logoName">Github</div>
+        </a>
+      </div>
+      <div className="card">
+        <a href="mailto:edwin.dev3002@gmail.com" target="_blanck">
+          <div className="logo">
+            <Mail />
+          </div>
+          <div className="logoName">Mail</div>
+        </a>
+      </div>
+    </div>
+  );
+};
