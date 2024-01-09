@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { ContactLinks } from "./Contact";
+import Image from "next/image";
 
 const Home1 = () => {
-  const [photo, setPhoto] = useState(
-    "https://res.cloudinary.com/edwin3002/image/upload/v1656974851/portafolio/ed_mgrnc9.png"
-  );
   const [t] = useTranslation("global");
 
   const container = {
@@ -32,7 +30,7 @@ const Home1 = () => {
   return (
     <div
       id="home"
-      className="h-screen bg-cover   bg-[url('https://res.cloudinary.com/edwin3002/image/upload/v1656358366/portafolio/portafolioBG3_kaviwh.jpg')]"
+      className="h-screen bg-cover   bg-[url('https://res.cloudinary.com/edwin3002/image/upload/v1704608305/portafolio/portafolioBg_iscdes.jpg')]"
     >
       <motion.ul
         className="flex   flex-col  md:flex-row h-screen "
@@ -43,19 +41,18 @@ const Home1 = () => {
         <div className="flex mt-20 md:mt-10 w-full lg:w-1/2">
           <div className=" m-auto">
             <motion.li className="item" variants={item}>
-              <img
+              <Image
+                loading="lazy"
+                width={300}
+                height={300}
                 className="w-3/4 m-auto"
-                src={
-                  photo
-                    ? photo
-                    : "https://ouch-cdn2.icons8.com/lKuVLNguQl_yxSAw5bVEIPSlgGLY3D2nd27prwfwzrk/rs:fit:256:256/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvODA3/LzM0NDExZmZlLTdk/YzYtNDYyNC04Nzgx/LTc1Zjc0MzFhM2Fk/Zi5zdmc.png"
-                }
+                src=" https://res.cloudinary.com/edwin3002/image/upload/v1704608423/portafolio/ed_nmsjzh.png"
                 alt="Edwin vargas"
               />
             </motion.li>
-            <motion.li className="item" variants={item}>
+            {/* <motion.li className="item" variants={item}>
               <h2 className="text-center text-4xl lg:text-5xl">Edwin Vargas</h2>
-            </motion.li>
+            </motion.li> */}
           </div>
         </div>
         <div className="flex w-full lg:w-1/2">
@@ -71,14 +68,14 @@ const Home1 = () => {
               </h3>
             </motion.li>
             <motion.li className="item" variants={item}>
-              <p className="my-6 mr-20  text-lg lg:text-2xl">
+              <p className="my-6 lg:mr-20  text-lg lg:text-2xl">
                 {t("home.phrase")}
               </p>
             </motion.li>
             <motion.li className="item" variants={item}>
-            <div className="w-1/2">
-              <ContactLinks  className="container flex justify-between"/>
-            </div>
+              <div className="lg:w-1/2">
+                <ContactLinks className="container flex justify-around lg:justify-between" />
+              </div>
             </motion.li>
           </div>
         </div>

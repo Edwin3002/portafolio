@@ -23,7 +23,7 @@ const About = () => {
             {/* <h3 className="text-2xl lg:text-3xl font-bold">
               {t("about.subTitle")}
             </h3> */}
-            <p className="my-6 text-lg lg:text-xl text-justify">
+            <p className="my-6 text-lg lg:text-xl">
               {t("about.p1")}
               <br />
               {t("about.p2")}

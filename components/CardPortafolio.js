@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Figma, Github, World } from "../icons/icons";
+import Image from "next/image";
 
 const CardPortafolio = ({ project, f }) => {
   const [t] = useTranslation("global");
@@ -11,7 +12,14 @@ const CardPortafolio = ({ project, f }) => {
           <ul>
             {project.img.map((imagen) => (
               <li>
-                <img className="imgP" src={imagen} alt={project.name} />
+                <Image
+                  loading="lazy"
+                  width={300}
+                  height={200}
+                  className="imgP"
+                  src={imagen}
+                  alt={project.name}
+                />
               </li>
             ))}
           </ul>
