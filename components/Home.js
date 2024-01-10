@@ -46,12 +46,12 @@ const Home1 = () => {
                 width={300}
                 height={300}
                 className="w-3/4 m-auto"
-                src=" https://res.cloudinary.com/edwin3002/image/upload/v1704608423/portafolio/ed_nmsjzh.png"
-                alt="Edwin vargas"
+                src="https://res.cloudinary.com/edwin3002/image/upload/v1704608423/portafolio/ed_nmsjzh.png"
+                alt="Edwin"
               />
             </motion.li>
             {/* <motion.li className="item" variants={item}>
-              <h2 className="text-center text-4xl lg:text-5xl">Edwin Vargas</h2>
+              <h2 className="text-center text-4xl lg:text-5xl">Edwin</h2>
             </motion.li> */}
           </div>
         </div>

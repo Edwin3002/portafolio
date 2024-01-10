@@ -31,7 +31,7 @@ const About = () => {
             {/* <a
               href={t("about.urlCv")}
               target="_black"
-              download="Edwin Vargas Ayala"
+              download="Edwin"
             >
               <button className="btnCv rounded-lg px-4 py-1 flex items-center justify-around">
                 <div className=" mr-4">
