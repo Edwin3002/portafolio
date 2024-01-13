@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { ContactLinks } from "./Contact";
@@ -38,7 +38,7 @@ const Home1 = () => {
         initial="hidden"
         animate="visible"
       >
-        <div className="flex mt-20 md:mt-10 w-full lg:w-1/2">
+        <div className="flex mx-auto  mt-20 md:mt-10 w-4/5 lg:w-1/2">
           <div className=" m-auto">
             <motion.li className="item" variants={item}>
               <Image
@@ -55,8 +55,8 @@ const Home1 = () => {
             </motion.li> */}
           </div>
         </div>
-        <div className="flex w-full lg:w-1/2">
-          <div className="m-auto p-1 text-center lg:text-left">
+        <div className="flex w-4/5 lg:w-1/2 m-auto">
+          <div className="m-auto p-1 ">
             <motion.li className="item" variants={item}>
               <h2 className="colorText neon font-bold text-4xl lg:text-5xl">
                 {t("home.hi")}

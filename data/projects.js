@@ -112,24 +112,24 @@ export const projectsPortafolio = [
     description2:
       "Es una landing page la cual se conecta a una api para acortar los links largos que hayas introducido en la página.",
   },
-    {
-    id: 30,
-    name: "Portafolio / Briefcase",
-    url: "https://edwin-dev.vercel.app/",
-    img: [
-      "https://res.cloudinary.com/edwin3002/image/upload/v1656215552/portafolio/portafolio-1_kvmlnm.png",
-      "https://res.cloudinary.com/edwin3002/image/upload/v1656215535/portafolio/portafolio-2_b70rdk.png",
-      "https://res.cloudinary.com/edwin3002/image/upload/v1656215538/portafolio/portafolio-3_pwudi4.png",
-    ],
-    github: "https://github.com/Edwin3002/portafolio",
-    figma:
-      "https://www.figma.com/proto/Vx51s3MdtYjORzN6ixQ4Kw/Portafolio?page-id=0%3A1&node-id=1%3A2&viewport=122%2C397%2C0.18&scaling=scale-down&starting-point-node-id=1%3A2",
-    technology: "Next.js, Tailwind, Framer Motion, i18next, Figma.",
-    description:
-      "It is my website where you can learn more about me, my work and projects.",
-    description2:
-      "Es mi pagina web en la que puedes conocer mas acerca de mi, mi trabajo y proyectos.",
-  },
+  //   {
+  //   id: 30,
+  //   name: "Portafolio / Briefcase",
+  //   url: "https://edwin-dev.vercel.app/",
+  //   img: [
+  //     "https://res.cloudinary.com/edwin3002/image/upload/v1656215552/portafolio/portafolio-1_kvmlnm.png",
+  //     "https://res.cloudinary.com/edwin3002/image/upload/v1656215535/portafolio/portafolio-2_b70rdk.png",
+  //     "https://res.cloudinary.com/edwin3002/image/upload/v1656215538/portafolio/portafolio-3_pwudi4.png",
+  //   ],
+  //   github: "https://github.com/Edwin3002/portafolio",
+  //   figma:
+  //     "https://www.figma.com/proto/Vx51s3MdtYjORzN6ixQ4Kw/Portafolio?page-id=0%3A1&node-id=1%3A2&viewport=122%2C397%2C0.18&scaling=scale-down&starting-point-node-id=1%3A2",
+  //   technology: "Next.js, Tailwind, Framer Motion, i18next, Figma.",
+  //   description:
+  //     "It is my website where you can learn more about me, my work and projects.",
+  //   description2:
+  //     "Es mi pagina web en la que puedes conocer mas acerca de mi, mi trabajo y proyectos.",
+  // },
   // {
   //     id: 4,
   //     name: 'To Do',
