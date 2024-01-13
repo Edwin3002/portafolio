@@ -12,7 +12,7 @@ const Contact = () => {
         <p className="my-6 text-xl lg:text-2xl">{t("contact.p1")}</p>
         <ContactLinks />
       </div>
-      <footer className="text-center py-6">
+      <footer className="text-center py-6 px-10">
         Copyright © 2024. @<a href="#home">Edwin -</a>
         {t("contact.rights")}
       </footer>
