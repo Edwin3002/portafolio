@@ -9,6 +9,7 @@ import i18next from "i18next";
 import globalEspanol from "../translations/español/global.json";
 import globalEnglish from "../translations/english/global.json";
 import { useRouter } from "next/router";
+import { Toaster } from "react-hot-toast";
 
 export default function Home() {
   const { query } = useRouter();
@@ -32,6 +33,7 @@ export default function Home() {
 
   return (
     <I18nextProvider i18n={i18next}>
+      <Toaster />
       <div>
         <Head>
           <title>Ed / Frontend Developer</title>

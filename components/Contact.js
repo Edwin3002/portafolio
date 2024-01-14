@@ -1,6 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Github, Linkedin, Mail } from "../icons/icons";
+import copy from "copy-to-clipboard";
+import toast from "react-hot-toast";
+import { useRouter } from "next/router";
 
 const Contact = () => {
   const [t] = useTranslation("global");
@@ -22,7 +25,19 @@ const Contact = () => {
 
 export default Contact;
 
-export const ContactLinks = ({className = "container my-16 flex justify-around"}) => {
+export const ContactLinks = ({
+  className = "container my-16 flex justify-around",
+}) => {
+  const { query } = useRouter();
+
+  const copyMail = () => {
+    copy("edwin.dev3002@gmail.com");
+    let text = query.language === "en" ? "Copied email" : "Mail copiado";
+    toast.success(text, {
+      position: "bottom-center",
+    });
+  };
+
   return (
     <div className={className}>
       <div className="card">
@@ -45,12 +60,14 @@ export const ContactLinks = ({className = "container my-16 flex justify-around"}
         </a>
       </div>
       <div className="card">
-        <a href="mailto:edwin.dev3002@gmail.com" target="_blanck">
+        <button onClick={copyMail}>
+          {/* <a href="mailto:edwin.dev3002@gmail.com" target="_blanck"> */}
           <div className="logo">
             <Mail />
           </div>
           <div className="logoName">Mail</div>
-        </a>
+        </button>
+        {/* </a> */}
       </div>
     </div>
   );
