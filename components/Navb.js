@@ -9,7 +9,14 @@ const Navb = () => {
   const [btnNav, setBtnNav] = useState(false);
   const { query, push } = useRouter();
 
-  const changeL = () => (query.language === "es" ? push("en") : push("es"));
+  const changeL = () => {
+    if (!query.language) {
+      push("en");
+      return;
+    }
+    query.language === "es" ? push("en") : push("es");
+    return;
+  };
 
   useEffect(() => {
     if (query.language) {
