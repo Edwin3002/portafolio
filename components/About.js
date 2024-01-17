@@ -28,18 +28,18 @@ const About = () => {
               <br />
               {t("about.p2")}
             </p>
-            {/* <a
+            <a
               href={t("about.urlCv")}
               target="_black"
               download="Edwin"
             >
-              <button className="btnCv rounded-lg px-4 py-1 flex items-center justify-around">
+              <button className="btnCv rounded-lg px-4 py-1 flex items-center justify-around bg-red-500 text-cyan-600">
                 <div className=" mr-4">
                   <Download />
                 </div>
                 <p>{t("about.cv")}</p>
               </button>
-            </a> */}
+            </a>
           </div>
         </div>
         <div className="my-16 w-full lg:w-1/2">
