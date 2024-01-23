@@ -42,12 +42,12 @@ const Home1 = () => {
           <div className=" m-auto">
             <motion.li className="item" variants={item}>
               <Image
-                loading="lazy"
                 width={300}
                 height={300}
                 className="w-3/4 m-auto"
-                src="https://res.cloudinary.com/edwin3002/image/upload/v1704608423/portafolio/ed_nmsjzh.png"
+                src="https://res.cloudinary.com/edwin3002/image/upload/v1705986917/portafolio/me_snxmmu.png"
                 alt="Edwin"
+                priority
               />
             </motion.li>
             {/* <motion.li className="item" variants={item}>
@@ -74,7 +74,7 @@ const Home1 = () => {
             </motion.li>
             <motion.li className="item" variants={item}>
               <div className="lg:w-1/2">
-                <ContactLinks className="container flex justify-around lg:justify-between" />
+                <ContactLinks className="container flex justify-between lg:justify-around" />
               </div>
             </motion.li>
           </div>

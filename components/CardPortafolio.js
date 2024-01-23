@@ -10,8 +10,8 @@ const CardPortafolio = ({ project, f }) => {
       <div className="imgCardPorta ">
         <div className="slider">
           <ul>
-            {project.img.map((imagen) => (
-              <li>
+            {project.img.map((imagen, index) => (
+              <li key={project.id + project.name + index}>
                 <Image
                   loading="lazy"
                   width={300}
