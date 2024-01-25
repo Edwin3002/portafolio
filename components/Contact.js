@@ -26,7 +26,7 @@ const Contact = () => {
 export default Contact;
 
 export const ContactLinks = ({
-  className = "container my-16 flex justify-around",
+  className = "my-16 flex justify-between lg:justify-around",
 }) => {
   const { query } = useRouter();
 
