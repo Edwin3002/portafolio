@@ -158,14 +158,5 @@ export const projectsPortafolio = [
   //     github: 'https://github.com/Edwin3002/Cards',
   //     technology: 'Javascript, BootStrap, SweetAlert2.',
   //     descrption: ''
-  // } ,
-  // {
-  //     id: 9,
-  //     name: 'Api World',
-  //     url: 'https://edwin3002.github.io/reto-paises2/html/index.html',
-  //     img: ['https://res.cloudinary.com/edwin3002/image/upload/v1656224981/portafolio/world-1_eemsr5.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224993/portafolio/world-2_r63g89.png','https://res.cloudinary.com/edwin3002/image/upload/v1656224997/portafolio/world-3_cgjp9a.png'],
-  //     github: 'https://github.com/Edwin3002/Edwin3002.github.io/tree/main/reto-paises2',
-  //     technology: 'Javascript, BootStrap, Api.',
-  //     descrption: ''
   // },
 ];
